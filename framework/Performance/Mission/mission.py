@@ -38,14 +38,14 @@ from framework.Performance.Analysis.climb_integration import climb_integration
 from framework.Performance.Analysis.cruise_performance import *
 from framework.Performance.Analysis.descent_integration import \
     descent_integration
+from framework.Performance.Mission.mission_alternative import \
+    mission_alternative
 from framework.Performance.Analysis.maximum_range_cruise import \
     maximum_range_mach
 from framework.Performance.Analysis.mission_altitude import (maximum_altitude,
                                                              optimum_altitude)
 from framework.Sizing.performance_constraints import (regulated_landing_weight,
                                                       regulated_takeoff_weight)
-
-from framework.Performance.Engine.engine_performance import turbofan
 
 from framework.Weights.weights import aircraft_empty_weight
 from framework.Performance.Mission.reserve_fuel import reserve_fuel

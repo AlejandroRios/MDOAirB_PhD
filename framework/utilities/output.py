@@ -36,7 +36,7 @@ from framework.utilities.logger import get_logger
 # =============================================================================
 log = get_logger(__file__.split('.')[0])
 
-def write_optimal_results(airports_keys, distances, demands, profit, DOC_ik, vehicle, kpi_df2, airplanes_ik):
+def write_optimal_results(individual, airports_keys, distances, demands, profit, DOC_ik, vehicle, kpi_df2, airplanes_ik):
     """
     Description:
         - This function create a txt file containing principal results
@@ -104,6 +104,10 @@ def write_optimal_results(airports_keys, distances, demands, profit, DOC_ik, veh
         output.write(
             '======== Aircraft and network optimization results ========')
         output.write('\n\n')
+
+        output.write('Individual variables: ')
+        output.write('\n')
+        output.write(str(individual) + "\n")
 
         # ===============================================================================
         output.write('\n ----- Aircraft parameters ----- \n')
@@ -264,6 +268,8 @@ def write_optimal_results(airports_keys, distances, demands, profit, DOC_ik, veh
                      str("{:.2f}".format(winglet['sweep_leading_edge'])) + ' [deg] \n')
 
         output.write('\n Engine: \n')
+        output.write('Engine type: ' +
+                     str("{:.0f}".format(engine['type'])) + '\n')
         output.write('Maximum thrust: ' +
                      str(engine['maximum_thrust']*aircraft['number_of_engines']) + ' [N] \n')
         output.write('Bypass ratio: ' +
@@ -277,12 +283,12 @@ def write_optimal_results(airports_keys, distances, demands, profit, DOC_ik, veh
         output.write('Turbine inlet temperature: ' +
                      str("{:.2f}".format(engine['turbine_inlet_temperature'])) + ' [deg C] \n')
         output.write('Engine length: ' +
-                     str("{:.2f}".format(engine['length'])) + ' [m] \n')
+                     str("{:.2f}".format(float(engine['length']))) + ' [m] \n')
 
         output.write('\n Pylon: \n')
 
         output.write('Wetted area: ' +
-                     str("{:.2f}".format(pylon['wetted_area'])) + ' [m2] \n')
+                     str("{:.2f}".format(float(pylon['wetted_area']))) + ' [m2] \n')
 
         output.write('\n Aircraft: \n')
 

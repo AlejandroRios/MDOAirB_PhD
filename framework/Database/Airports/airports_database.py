@@ -160,5 +160,104 @@ AIRPORTS_DATABASE = {
 				"lda": 3151
 			}
 		}
+	},
+	"ARN": {
+		"latitude": 59.6519,
+		"longitude": 17.9178,
+		"elevation": 137,
+		"dmg": 1,
+		"tref": 23.5,
+		"runways": {
+			"01L": {
+				"tora": 3301,
+				"toda": 3301,
+				"asda": 3301,
+				"lda": 3301
+			}
+		}
+	},
+	"DME": {
+		"latitude": 55.4145,
+		"longitude":37.8994,
+		"elevation": 588,
+		"dmg": 1,
+		"tref": 17,
+		"runways": {
+			"14R": {
+				"tora": 3500,
+				"toda": 3350,
+				"asda": 3300,
+				"lda": 3167
+			},
+			"32L": {
+				"tora": 3500,
+				"toda": 3350,
+				"asda": 3300,
+				"lda": 3167
+			}
+		}
+	},
+	"HEL": {
+		"latitude": 60.3171,
+		"longitude": 24.9528,
+		"elevation": 180,
+		"dmg": 2,
+		"tref": 23,
+		"runways": {
+			"04R": {
+				"tora": 3500,
+				"toda": 3590,
+				"asda": 3500,
+				"lda": 3060
+			},
+			"04L": {
+				"tora": 3500,
+				"toda": 3590,
+				"asda": 3500,
+				"lda": 3060
+			}
+		}
+	},
+	"IST": {
+		"latitude": 40.9825,
+		"longitude": 28.8208,
+		"elevation": 324,
+		"dmg": 1,
+		"tref": 21,
+		"runways": {
+			"17L": {
+				"tora": 4100,
+				"toda": 4100,
+				"asda": 4100,
+				"lda": 4100
+			},
+			"35R": {
+				"tora": 4100,
+				"toda": 4100,
+				"asda": 4100,
+				"lda": 4100
+			}
+		}
+	},
+	"KBP": {
+		"latitude": 50.3426,
+		"longitude": 30.8925,
+		"elevation": 426,
+		"dmg": 1,
+		"tref": 17.3,
+		"runways": {
+			"18L": {
+				"tora": 3304,
+				"toda": 3304,
+				"asda": 3304,
+				"lda": 3104
+			},
+			"36R": {
+				"tora": 3304,
+				"toda": 3304,
+				"asda": 3304,
+				"lda": 3104
+			}
+		}
 	}
 }

@@ -302,11 +302,11 @@ if __name__ == "__main__":
         progress_val.append(obj_function(x))	
 
     # Lower and upeer bounds of each input variable
-    #            0   |      1   |     2   |   3     |    4    |   5      |  6     |   7     |   8     |         9   |   10    |    11    |   12    |     13    |  14      |
-    #           Areaw|      ARw |     TRw |  Sweepw |  Twistw | b/2kinkw |  bypass|   Ediam |  PRcomp |        Tin  |   PRfan |    PAX   | seat abr|     range | engine   |    
-    bounds = [(72,130), (75, 120), (25, 50), (15, 30), (-5, -2), (32, 45), (45, 65), (10, 15), (27, 30), (1350, 1500), (14, 25), (70, 220), (4, 6), (1000,3500),    (0,44)]
+    #            0   |      1   |     2   |   3     |    4    |   5      |    11    |   12    |     13    |  14      |
+    #           Areaw|      ARw |     TRw |  Sweepw |  Twistw | b/2kinkw |    PAX   | seat abr|     range | engine   |    
+    bounds = [(72,130), (75, 120), (25, 50), (15, 30), (-5, -2), (32, 45), (161, 220), (4, 6), (1500,3200), (0,44)]
 
-    result = scipy.optimize.differential_evolution(obj_function, bounds, maxiter = 100, disp=True, polish=False,callback=cb ,init =init_Population,  updating='deferred', workers=8)
+    result = scipy.optimize.differential_evolution(obj_function, bounds, maxiter = 100, disp=True, polish=False,callback=cb,  updating='deferred', workers=8)
     print(result)
 
     progress = np.array(progress)
