@@ -56,6 +56,8 @@ framework/Optimization/fixed_aircraft.py
 framework/Optimization/main.py
 framework/Optimization/main_parallel.py
 framework/Optimization/main_parallel_de.py
+framework/Optimization/main_parallel_pymoo.py
+framework/Optimization/main_parallel_pymoo_family.py
 framework/Optimization/objective_function.py
 framework/Optimization/plot_results.py
 framework/Performance/__init__.py
