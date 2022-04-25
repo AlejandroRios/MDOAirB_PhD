@@ -581,7 +581,7 @@ def objective_function(vehicle,x=None):
     # x = [37, 7, 5]
     # x = [9, 7, 5]
     # x = [33, 7, 4]
-    # x = [32, 11, 5] # opt
+    #x = [32, 11, 5] # opt
 
     if not fixed_aircraft:
         res = objective_function0(x, fixed_parameters, computation_mode,
