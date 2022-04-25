@@ -358,14 +358,14 @@ if __name__ == "__main__":
 
     
 
-    algorithm = NSGA2(pop_size=40,
+    algorithm = NSGA2(pop_size=8,
                         sampling=sampling,
                         crossover=crossover,
                         mutation=mutation,
                         eliminate_duplicates=True,
                         )
 
-    res = minimize(problem,algorithm,('n_gen', 50), verbose=True,save_history=True,seed=1)
+    res = minimize(problem,algorithm,('n_gen', 10), verbose=True,save_history=True,seed=1)
 
     print("Best solution found: %s" % res.X)
     print("Function value: %s" % res.F)
@@ -373,7 +373,7 @@ if __name__ == "__main__":
 
 
     n_evals = np.array([e.evaluator.n_eval for e in res.history])
-    n_gens = np.array([e.evaluator.n_gen for e in res.history])
+    n_gens = np.array([e.n_gen for e in res.history])
     opt = np.array([e.opt[0].F for e in res.history])
 
     plt.rc('font', family='serif')
@@ -390,10 +390,7 @@ if __name__ == "__main__":
 
     #ax.set_xlim([0,None])
     #ax.set_ylim([0,None])
-
-    plt.grid(True)
-    plt.show()
-    plt.plot(n_evals, opt, "--")
+    ax.plot(n_evals, opt, "--")
     #plt.yscale("symlog")
     plt.show()
 
@@ -408,8 +405,6 @@ if __name__ == "__main__":
     #ax.set_xlim([0,None])
     #ax.set_ylim([0,None])
 
-    plt.grid(True)
-    plt.show()
-    plt.plot(n_gens, opt, "--")
+    ax2.plot(n_gens, opt, "--")
     #plt.yscale("symlog")
     plt.show()
