@@ -288,10 +288,10 @@ def family_network_optimization(computation_mode, airports_keys, acft1, acft2, a
         # Solve linear programming problem (Network optimization)
         # =============================================================================
         log.info('==== Start PuLP optimization ====')
-        # prob.solve(GLPK(timeLimit=60*5, msg = 0))
-        prob.solve(COIN_CMD(timeLimit=60*5, msg = 0))
+        #prob.solve(GLPK(timeLimit=60*5, msg = 0))
+        #prob.solve(COIN_CMD(timeLimit=60*5, msg = 0))
         # prob.solve(COIN_CMD(timeLimit=60*5, msg = 0))
-        # prob.solve(PULP_CBC_CMD(timeLimit=60*6, msg = 0))
+        prob.solve(PULP_CBC_CMD(timeLimit=60*6, msg = 0))
 
         log.info('==== Start PuLP optimization ====')
         print('Problem solution:',value(prob.objective))
