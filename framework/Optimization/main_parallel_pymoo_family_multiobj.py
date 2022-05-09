@@ -346,7 +346,7 @@ if __name__ == "__main__":
         "int": get_mutation("int_pm", eta=3.0)
     })
 
-    n_proccess = 14
+    n_proccess = 8
 
     pool = multiprocessing.Pool(n_proccess)
     problem = MyProblem(runner=pool.starmap, func_eval=starmap_parallelized_eval)
