@@ -50,6 +50,8 @@ from framework.utilities.output import (write_bad_results, write_kml_results,
                                         write_newtork_results,
                                         write_optimal_results,
                                         write_unfeasible_results)
+
+from framework.Economics.net_present_value import main_cost
 from haversine import Unit, haversine
 from jsonschema import validate
 
@@ -307,8 +309,15 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
                 CO2_efficiency =  total_CO2 / \
                     (total_pax*total_distance*1.852)
 
-                print(total_pax)
-                print(CO2_efficiency)
+                print('CO2_eff',CO2_efficiency)
+
+                sum_total_prod_cost = main_cost(vehicle_1) + main_cost(vehicle_2) + main_cost(vehicle_3)
+
+                print('Total_prod_cost',sum_total_prod_cost)
+
+
+
+            
 
             except:
                 log.error(
@@ -363,7 +372,7 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
     log.info('Network profit excecution time: {}'.format(end_time - start_time))
     log.info('==== End network profit module ====')
 
-    return profit, CO2_efficiency
+    return profit, sum_total_prod_cost
 
 # def objective_function(x, original_vehicle, computation_mode, route_computation_mode, airports, distances, demands):
 # 	print("--------------------------------------------------------------------")

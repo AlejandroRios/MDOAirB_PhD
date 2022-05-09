@@ -533,7 +533,7 @@ def cash_flow_matrix(MTOW_factor,thrust_factor):
         cash_flow.append(cash_flow_aux)
         present_value.append(present_value_aux)
 
-    return total_net_present_value, cash_flow, present_value
+    return total_net_present_value, cash_flow, present_value ,costs
 
 
 def IRR():
@@ -591,61 +591,82 @@ def break_even():
             break
     return break_even
 
+def main_cost(vehicle):
+    global MTOW, thrust_maximum, wing_surface_ft, engine_diameter, engines_number, pax_number, KVA, p, share, IR, thrust_factor ,engine_diameter_in, MTOW_factor
 
-# """
-# TEST
+    MTOW_baseline = 22010
+    # wing_surface_baseline = 52
+    # engines_number_baseline = 2
+    # engine_diameter_baseline = 1.52
+    # pax_number_baseline = 50
+    thrust_maximum_baseline = 8895
+    # KVA_baseline = 75
+    p = 14
+    share = 0.6
+    IR = 0.05
+    
+    aircraft = vehicle['aircraft']
+    wing = vehicle['wing']
+    engine = vehicle['engine']
 
-# TODO's:
-#     - This part should be inputed in a different way when integrated
-# """
-global MTOW, thrust_maximum, wing_surface, engine_diameter, engines_number, pax_number, KVA, p, share, IR
-
-MTOW_baseline = 22010
-# wing_surface_baseline = 52
-# engines_number_baseline = 2
-# engine_diameter_baseline = 1.52
-# pax_number_baseline = 50
-thrust_maximum_baseline = 8895
-# KVA_baseline = 75
-p = 14
-share = 0.6
-IR = 0.05
-
-MTOW = 22000
-thrust_maximum = (MTOW/22000)*8895
-wing_surface = 50
-wing_surface_ft = wing_surface * 10.764
-engine_diameter = 1.11
-engine_diameter_in = engine_diameter * 39.3701
-engines_number = 2
-pax_number = 44
-KVA = 75
+    MTOW = aircraft['maximum_takeoff_weight']
+    thrust_maximum = (MTOW/22000)*8895
+    wing_surface = wing['area']
+    wing_surface_ft = wing_surface * 10.764
+    engine_diameter = engine['diameter']
+    engine_diameter_in = engine_diameter * 39.3701
+    engines_number = aircraft['number_of_engines']
+    pax_number = aircraft['passenger_capacity']
+    KVA = 75
 
 
-MTOW_factor = MTOW/MTOW_baseline
-thrust_factor = thrust_maximum/thrust_maximum_baseline
-wing_surface_ft2 = wing_surface*3.28**2
-engine_diameter_in = engine_diameter*39.37
-
-total  = total_non_recurrig_year_cost(MTOW_factor,thrust_factor)
-print('Total non recurring year cost: ', total)
-
-material_costs = material()
-print('Material cost: ', material_costs)
-
-print('Man power cost:', man_power())
-
-print(delivery_forecast())
-print('Matrix cost:', cost_matrix(MTOW_factor,thrust_factor))
-
-total_net_present_value, cash_flow, present_value = cash_flow_matrix(MTOW_factor,thrust_factor)
+    MTOW_factor = MTOW/MTOW_baseline
+    thrust_factor = thrust_maximum/thrust_maximum_baseline
 
 
-print('Cash flow: ', cash_flow)
+    total_non_rec_cost  = total_non_recurrig_year_cost(MTOW_factor,thrust_factor)
+    # print('Total non recurring year cost: ', total_non_rec_cost )
 
-print('Present value: ', present_value)
+    material_costs = material()
+    # print('Material cost: ', material_costs)
 
-print('Total net present value: ', total_net_present_value)
+    # print('Man power cost:', man_power())
 
-print('IRR: ', IRR())
-print('Break even: ', break_even())
+    # print(delivery_forecast())
+    # print('Matrix cost:', cost_matrix(MTOW_factor,thrust_factor))
+
+    total_net_present_value, cash_flow, present_value,cost = cash_flow_matrix(MTOW_factor,thrust_factor)
+
+
+    # print('Cash flow: ', cash_flow)
+
+    # print('Present value: ', present_value)
+
+    # print('Total net present value: ', total_net_present_value)
+
+    # print('IRR: ', IRR())
+    # print('Break even: ', break_even())
+    sum_cost_prod = np.sum(cost)/1000000
+
+    return sum_cost_prod
+
+# def load_info_from_dicts(dictionary):
+#     airports = dictionary['airports']
+#     distances = dictionary['distances']
+#     demands = dictionary['demands']
+#     DOC_ik = dictionary['DOC_ik']
+#     DOC_nd = dictionary['DOC_nd']
+#     fuel_mass = dictionary['fuel_mass']
+#     total_mission_flight_time = dictionary['total_mission_flight_time']
+#     mach = dictionary['mach']
+#     passenger_capacity = dictionary['passenger_capacity']
+#     SAR = dictionary['SAR']
+#     vehicle = dictionary['vehicle']
+#     return airports, distances, demands, DOC_ik, DOC_nd, fuel_mass, total_mission_flight_time, mach, passenger_capacity, SAR, vehicle
+
+# import pickle
+# with open('Database/Family/40_to_100/all_dictionaries/'+str(10)+'.pkl', 'rb') as f:
+#     all_info_acft1 = pickle.load(f)
+
+# vehicle = all_info_acft1['vehicle']
+# print(main_cost(vehicle))
