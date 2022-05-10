@@ -1,6 +1,7 @@
 import pickle
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
 with open(r"Database/Results_Multi_Optim/functions_multi_obj_DD_profit_CO2.pkl", "rb") as input_file:
     df_DD = pickle.load(input_file)
 
@@ -180,6 +181,9 @@ F2_GCD = [1.17605071e-04,
 1.82438958e-04,
 1.64968605e-04]
 
+print('min CO2',np.min(F2_GCD))
+print('max prof',np.min(F1_GCD))
+
 F1_DD = pd.DataFrame(F1_DD, columns=['F1'])
 F2_DD = pd.DataFrame(F2_DD, columns=['F2'])
 
@@ -197,10 +201,12 @@ ax.set_xlabel('Profit [US$]')
 ax.set_ylabel('CO2 efficiecy [kg/nm]')
 
 
-ax.scatter(df_GCD['X1'], df_GCD['X2'],s=30, facecolors='none', edgecolors='grey',alpha = 0.5)
-ax.scatter(df_DD['X1'], df_DD['X2'],s=30, facecolors='none', edgecolors='skyblue',alpha = 0.5)
+ax.scatter(df_GCD['X1'], df_GCD['X2'],s=30, facecolors='none', edgecolors='grey',alpha = 0.5,label='GCD solutions')
+ax.scatter(df_DD['X1'], df_DD['X2'],s=30, facecolors='none', edgecolors='skyblue',alpha = 0.5,label='DD solutions')
 ax.scatter(F1_GCD, F2_GCD, s=50, facecolors='none',marker= '^',edgecolors='black')
 ax.scatter(F1_DD, F2_DD, s=50, facecolors='none',marker= 's',edgecolors='black')
 ax.set_title("Objective Space")
+
+plt.legend(loc='upper left')
 
 plt.show()
