@@ -157,7 +157,7 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
         # If airplane pass checks, status = 0, else status = 1 and profit = 0
         if status == 0:
             log.info('Aircraft passed sizing and checks status: {}'.format(status))
-            market_share = operations['market_share']
+            market_share = operations_1['market_share']
             results_1['nodes_number'] = len(airports)
             results_2['nodes_number'] = len(airports)
             results_3['nodes_number'] = len(airports)

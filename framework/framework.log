@@ -1,7 +1,64 @@
-2022-05-10 13:05:25,884 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
-2022-05-10 13:05:25,891 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
-2022-05-10 13:05:25,891 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
-2022-05-10 13:05:25,892 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
-ly_network_optimization     - INFO - Network optimization status2022-05-10 13:05:25,835 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\utilities\print_results_family     - INFO - Network profit [$USD]: 2300944
-2022-05-10 13:05:25,898 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\utilities\print_results_family     - INFO - Network profit excecution time: 0:05:01.562231
-2022-05-10 13:05:25,898 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\utilities\print_results_family     - INFO - ==== End network profit module ====
+2022-05-11 05:37:23,628 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-11 05:37:23,679 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-11 05:42:26,706 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-11 05:42:26,710 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-11 05:42:26,784 - c:\user2022-05-11 05:42:26,785 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>2022-05-11 05:47:28,664 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-11 05:47:28,730 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-11 05:47:28,391 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-11 05:47:28,395 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-11 05:47:28,441 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-11 05:47:28,800 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-11 05:47:28,864 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+ptimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_optimal_results
+Traceback (most recent call last):
+  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 295, in objective_function0
+    )), distances, demands, profit, DOC_ik, vehicle, kpi_df2, airplanes_ik)
+UnboundLocalError: local variable 'kpi_df2' referenced before assignment
+2022-05-11 05:42:26,790 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_kml_results
+Traceback (most recent call last):
+  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 301, in objective_function0
+    write_kml_results(airports, profit, airplanes_ik)
+UnboundLocalError: local variable 'airplanes_ik' referenced before assignment
+2022-05-11 05:42:26,791 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_newtork_results
+Traceback (most recent call last):
+  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 307, in objective_function0
+    write_newtork_results(profit, kpi_df1, kpi_df2)
+UnboundLocalError: local variable 'kpi_df1' referenced before assignment
+2022-05-11 05:42:26,792 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.220581
+2022-05-11 05:42:26,793 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-11 05:47:28,656 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-11 05:47:28,663 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-11 05:47:28,664 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-11 05:47:28,664 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-11 05:47:28,442 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< network_optimization
+Traceback (most recent call last):
+  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 180, in objective_function0
+    computation_mode, list(airports.keys()), all_info_acft1, all_info_acft2, all_info_acft3)
+ValueError: too many values to unpack (expected 5)
+2022-05-11 05:47:28,444 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 0
+2022-05-11 05:47:28,444 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< writting dataframes
+Traceback (most recent call last):
+  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 274, in objective_function0
+    mach_1, passenger_capacity_1, fuel_mass_1, total_mission_flight_time_1, DOC_nd_1, SAR_1, distances_1,kpi_df2_1)
+UnboundLocalError: local variable 'kpi_df2_1' referenced before assignment
+2022-05-11 05:47:28,445 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_optimal_results
+Traceback (most recent call last):
+  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 295, in objective_function0
+    )), distances, demands, profit, DOC_ik, vehicle, kpi_df2, airplanes_ik)
+UnboundLocalError: local variable 'kpi_df2' referenced before assignment
+2022-05-11 05:47:28,445 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_kml_results
+Traceback (most recent call last):
+  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 301, in objective_function0
+    write_kml_results(airports, profit, airplanes_ik)
+UnboundLocalError: local variable 'airplanes_ik' referenced before assignment
+2022-05-11 05:47:28,446 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_newtork_results
+Traceback (most recent call last):
+  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 307, in objective_function0
+    write_newtork_results(profit, kpi_df1, kpi_df2)
+UnboundLocalError: local variable 'kpi_df1' referenced before assignment
+2022-05-11 05:47:28,447 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.269368
+2022-05-11 05:47:28,448 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-11 05:47:28,791 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-11 05:47:28,798 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-11 05:47:28,799 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-11 05:47:28,799 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
