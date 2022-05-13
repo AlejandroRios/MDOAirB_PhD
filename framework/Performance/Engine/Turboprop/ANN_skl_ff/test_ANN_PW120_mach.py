@@ -15,7 +15,7 @@ nn_unit = load('Performance/Engine/Turboprop/ANN_skl_ff/nn_ff_PW120.joblib')
 
 # print(test)
 
-n = 11
+n = 21
 M0 = np.linspace(0.01,0.7,n)
 altitude = np.linspace(0,35000,n)
 throttle_position = np.linspace(0.01,1,n)

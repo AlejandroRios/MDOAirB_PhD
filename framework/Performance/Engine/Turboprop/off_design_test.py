@@ -1,7 +1,6 @@
 from matplotlib import projections
 import numpy as np
 
-from tqdm import trange, tqdm
 
 from framework.Performance.Engine.Turboprop.PW120model import PW120model
 M0 = np.linspace(0.01,0.7,21)

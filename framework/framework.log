@@ -1,64 +1,990 @@
-2022-05-11 05:37:23,628 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
-2022-05-11 05:37:23,679 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
-2022-05-11 05:42:26,706 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
-2022-05-11 05:42:26,710 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
-2022-05-11 05:42:26,784 - c:\user2022-05-11 05:42:26,785 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>2022-05-11 05:47:28,664 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
-2022-05-11 05:47:28,730 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
-2022-05-11 05:47:28,391 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
-2022-05-11 05:47:28,395 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
-2022-05-11 05:47:28,441 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
-2022-05-11 05:47:28,800 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
-2022-05-11 05:47:28,864 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
-ptimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_optimal_results
+2022-05-13 01:43:16,197 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 01:43:16,211 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 01:43:16,211 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 01:43:16,214 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 01:48:19,280 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 01:48:19,290 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 01:48:19,290 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 01:48:19,293 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 01:58:23,540 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 01:58:23,550 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 01:58:23,550 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 01:58:23,553 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 02:03:25,993 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 02:03:26,004 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 02:03:26,004 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 02:03:26,006 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 02:13:29,689 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 02:13:29,700 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 02:13:29,700 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 02:13:29,704 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 02:18:32,540 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 02:18:32,548 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 02:18:32,549 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 02:18:32,552 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 02:23:34,858 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 02:23:34,865 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 02:23:34,865 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 02:23:34,867 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 02:28:39,613 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 02:28:39,623 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 02:28:39,623 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 02:28:39,626 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 02:33:42,430 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 02:33:42,443 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 02:33:42,444 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 02:38:44,464 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 02:43:47,471 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 02:43:47,480 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 02:43:47,480 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 02:43:47,945 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 02:48:49,780 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 02:48:49,801 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 02:48:49,801 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 02:48:50,772 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 02:53:52,178 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 02:53:52,186 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 02:53:52,186 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 02:58:55,871 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 02:58:55,880 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 02:58:55,881 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 02:58:55,885 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 03:03:58,010 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 03:03:58,279 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 03:03:58,288 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:03:58,288 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 03:09:00,599 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 03:09:00,604 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:09:00,604 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 03:09:00,605 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 03:14:03,570 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====202022-05-13 03:14:03,580 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:14:03,590 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:14:03,591 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 03:19:06,640 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====202022-05-13 03:19:06,650 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:19:06,650 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 03:19:06,653 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 03:29:11,263 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 03:29:11,271 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:29:11,300 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:29:11,319 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 03:34:13,884 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 03:34:13,894 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:34:13,895 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 03:34:13,898 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 03:39:16,038 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 03:39:16,111 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 03:39:16,115 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:39:16,116 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 03:44:19,818 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 03:44:19,869 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:44:19,881 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 03:44:19,888 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 03:49:22,718 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 03:49:23,108 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 03:49:23,123 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:49:23,124 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 03:59:26,903 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 03:59:27,929 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 03:59:27,946 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 03:59:27,948 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 04:04:29,394 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 04:04:30,678 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 04:04:30,689 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 04:04:30,697 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 04:09:32,205 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 04:14:35,512 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 04:14:35,520 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 04:14:35,521 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 04:14:36,156 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 04:19:37,692 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 04:19:37,700 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 04:19:37,702 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 04:19:39,253 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 04:24:40,022 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 04:24:40,028 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 04:24:40,029 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 04:29:43,084 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 04:29:44,329 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 04:29:44,341 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 04:29:44,381 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 04:34:45,760 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 04:34:46,691 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 04:34:46,701 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 04:34:46,722 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 04:39:48,055 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 04:44:51,111 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 04:44:51,119 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 04:44:51,122 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 04:44:51,127 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 04:49:54,374 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 04:49:54,383 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 04:49:54,384 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 04:49:54,392 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 04:54:56,477 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 04:54:56,481 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 04:54:56,481 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 04:54:56,482 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 05:00:00,275 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 05:00:00,284 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 05:00:00,286 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 05:00:00,292 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 05:05:03,209 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 05:05:03,218 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 05:05:03,219 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 05:05:03,221 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 05:15:06,599 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 05:15:06,608 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 05:15:06,610 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 05:15:06,612 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 05:20:09,058 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 05:20:09,079 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 05:20:09,081 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 05:20:09,085 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 05:25:11,423 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 05:25:11,430 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 05:25:11,430 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 05:25:11,432 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 05:30:15,838 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 05:30:15,847 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 05:30:15,848 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 05:30:15,851 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 05:35:18,741 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 05:35:18,752 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 05:35:18,752 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 05:35:18,755 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 05:45:23,148 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 05:45:23,179 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 05:45:23,183 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 05:45:23,188 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 05:50:25,576 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 05:50:25,586 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 05:50:25,587 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 05:50:25,589 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 05:55:28,014 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 05:55:28,022 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 05:55:28,022 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 05:55:28,025 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 06:00:31,780 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:00:31,790 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:00:31,790 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 06:00:31,794 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 06:05:34,385 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:05:34,394 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:05:34,394 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 06:05:34,416 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 06:10:36,651 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:10:36,656 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:10:36,656 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 06:10:36,658 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 06:15:39,934 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:15:39,944 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:15:39,949 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 06:15:39,953 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 06:20:42,761 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:20:42,770 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:20:42,770 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 06:20:42,773 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 06:30:46,776 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:30:46,830 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:30:46,834 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 06:30:46,837 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 06:35:49,548 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:35:49,574 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:35:49,581 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 06:35:49,610 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 06:40:52,088 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:40:52,094 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:40:52,095 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 06:40:52,097 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 06:45:55,558 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:45:55,568 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:45:55,568 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 06:45:55,708 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 06:50:58,493 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:50:58,505 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:50:58,507 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 06:50:58,912 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 06:56:00,676 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 06:56:00,694 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 06:56:00,694 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 06:56:01,159 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 07:01:04,878 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:01:04,890 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 07:01:04,891 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 07:01:05,063 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 07:06:08,100 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:06:08,111 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 07:06:08,111 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 07:06:08,114 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 07:16:12,977 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:16:13,000 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 07:16:13,002 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 07:16:13,006 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 07:21:15,004 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:21:15,013 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 07:21:15,014 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 07:21:15,016 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 07:26:17,280 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:26:17,287 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 07:26:17,288 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 07:26:17,289 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 07:31:22,166 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:31:22,177 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 07:31:22,178 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 07:31:22,181 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 07:36:24,391 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:36:24,401 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft result2022-05-13 07:36:24,425 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:36:24,497 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+22022-05-13 07:41:26,756 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft result2022-05-13 07:41:26,923 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:41:26,930 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 07:41:26,930 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+22022-05-13 07:46:30,329 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft result2022-05-13 07:46:30,926 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:46:30,936 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 07:46:30,937 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+22022-05-13 07:51:34,190 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 07:51:34,202 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 07:51:34,203 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 07:51:34,212 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 08:01:38,750 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 08:01:38,760 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 08:01:38,779 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 08:01:38,793 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 08:06:41,508 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 08:06:41,519 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 08:06:41,519 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 08:06:41,522 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 08:11:44,364 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 08:11:44,370 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 08:11:44,370 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 08:11:44,372 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 08:16:48,582 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 08:16:48,627 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 08:16:48,628 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 08:16:48,631 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 08:21:51,598 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 08:21:51,636 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 08:21:51,645 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 08:21:51,647 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 08:31:57,315 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 08:31:57,323 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 08:31:57,326 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 08:31:57,355 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 08:36:59,780 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 08:36:59,801 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 08:36:59,809 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 08:37:00,665 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 08:42:02,021 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 08:42:02,026 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 08:42:02,027 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 08:47:05,863 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 08:47:07,010 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 08:47:07,034 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 08:47:07,035 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 08:52:08,346 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 08:52:10,355 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 08:52:10,364 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 08:52:10,364 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 08:57:11,157 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 09:02:14,596 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 09:02:14,610 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 09:02:14,611 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 09:02:14,616 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 09:07:18,078 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 09:07:18,094 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 09:07:18,109 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 09:07:18,112 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 09:12:19,925 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 09:12:19,930 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 09:12:19,930 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 09:12:20,120 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 09:17:23,862 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 09:17:23,872 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 09:17:23,874 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 09:17:24,600 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 09:22:26,524 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 09:22:26,534 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 09:22:26,542 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 09:22:26,800 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 09:32:31,737 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 09:32:31,748 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 09:32:31,748 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 09:32:31,750 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 09:37:34,483 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 09:37:34,514 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 09:37:34,514 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 09:37:34,732 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 09:42:37,145 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 09:42:37,149 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 09:42:37,150 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 09:42:37,151 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 09:47:41,727 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 09:47:41,738 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 09:47:41,739 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 09:47:41,741 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 09:52:44,288 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 09:52:44,300 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 09:52:44,321 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 09:52:44,328 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 10:02:49,510 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:02:49,527 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:02:49,528 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 10:02:49,531 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 10:07:52,166 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:07:52,177 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:07:52,177 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 10:07:52,183 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 10:12:55,239 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:12:55,249 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:12:55,249 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 10:12:55,252 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 10:18:01,217 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:18:01,270 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:18:01,271 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 10:18:01,783 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 10:23:04,346 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:23:04,360 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:23:04,360 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 10:23:04,648 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 10:28:07,180 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:28:07,187 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:28:07,187 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 10:28:07,253 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 10:33:12,001 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:33:12,026 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:33:12,027 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 10:33:12,418 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 10:38:14,311 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:38:14,322 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:38:14,322 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 10:38:15,385 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 10:48:19,803 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:48:19,819 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:48:19,819 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 10:48:20,791 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 10:53:23,302 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:53:23,311 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:53:23,311 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 10:53:23,429 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 10:58:26,136 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 10:58:26,143 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 10:58:26,143 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 10:58:26,146 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 11:03:31,231 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 11:03:31,244 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 11:03:31,245 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results =2022-05-13 11:03:31,327 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====2022-05-13 11:08:34,551 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 11:08:34,568 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 11:08:34,569 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 11:08:34,574 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 11:18:40,278 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 11:18:40,296 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 11:18:40,297 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 11:18:40,301 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 11:23:43,147 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 11:23:43,158 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 11:23:43,159 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 11:23:43,163 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 11:28:46,124 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 11:28:46,130 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 11:28:46,130 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 11:28:46,131 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 11:33:52,313 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 11:33:52,327 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 11:33:52,329 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 11:33:52,332 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 11:38:56,627 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 11:38:56,640 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 11:38:56,640 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 11:38:56,643 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 11:49:02,526 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 11:49:02,540 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 11:49:02,541 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 11:49:02,546 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 11:54:07,232 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 11:54:07,242 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 11:54:07,242 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 11:54:07,246 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:04:11,709 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:04:11,722 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:04:11,722 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:04:11,725 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:09:15,445 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:09:15,461 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:09:15,463 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:09:15,467 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:14:18,272 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:14:18,280 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:14:18,281 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:14:18,283 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:19:23,242 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:19:23,256 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:19:23,257 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:19:23,264 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:24:25,980 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:24:25,991 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:24:25,992 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:24:25,997 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:29:28,804 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:29:28,813 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:29:28,813 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:29:28,816 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:34:34,475 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:34:34,494 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:34:34,495 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:34:34,498 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:39:39,266 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:39:39,283 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:39:39,284 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:39:39,288 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:44:41,977 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:44:41,985 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:44:41,985 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:44:41,987 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:49:47,552 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:49:47,572 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:49:47,572 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:49:47,578 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:54:50,871 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:54:50,883 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:54:50,886 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:54:50,890 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 12:59:53,487 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 12:59:53,492 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 12:59:53,492 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 12:59:53,495 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 13:05:00,526 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 13:05:00,568 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 13:05:00,569 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 13:05:00,575 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 13:10:06,505 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 13:10:06,524 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 13:10:06,524 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 13:10:06,527 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 13:20:10,333 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 13:20:10,354 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 13:20:10,354 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 13:20:10,358 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 13:25:15,320 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 13:25:15,331 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 13:25:15,336 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 13:25:15,344 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 13:35:19,647 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 13:35:19,659 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 13:35:19,660 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 13:35:19,663 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 13:40:24,349 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 13:40:24,362 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 13:40:24,362 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 13:40:24,366 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 13:45:27,145 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 13:45:27,151 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 13:45:27,151 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 13:45:27,154 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 13:50:32,630 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 13:50:32,640 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 13:50:32,640 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 13:50:32,643 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 13:55:34,964 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 13:55:34,977 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 13:55:34,977 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 13:55:34,980 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 14:00:37,951 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 14:00:37,958 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 14:00:37,958 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 14:00:37,960 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 14:05:42,932 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 14:05:42,951 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 14:05:42,952 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 14:05:42,956 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 14:10:47,865 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 14:10:47,879 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 14:10:47,883 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 14:10:47,886 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 14:05:42,841 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft result2022-05-13 14:10:45,739 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 14:10:45,764 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 14:10:45,765 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+22022-05-13 14:10:47,065 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft result2022-05-13 14:15:48,701 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 14:15:48,707 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 14:15:48,707 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 14:15:48,709 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 14:15:48,565 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 14:15:48,572 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====2022-05-13 14:15:50,125 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 14:15:50,131 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 14:15:50,132 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 14:15:50,134 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+
+2022-05-13 14:15:49,521 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 14:15:49,523 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+===
+2022-05-13 14:15:49,262 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 14:15:48,778 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft result2022-05-13 14:15:50,214 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 14:15:50,219 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 14:15:50,220 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 14:15:50,221 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+====
+===
+2022-05-13 14:05:41,628 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 14:10:46,326 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 14:10:46,337 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 14:10:46,338 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 14:10:46,340 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-13 14:15:49,003 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-13 14:15:49,012 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-13 14:15:49,012 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-13 14:15:49,016 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+127 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:08:34,135 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 11:08:34,279 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 11:13:37,726 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 11:13:37,770 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:18:40,026 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:18:40,035 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 11:18:40,115 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 11:18:40,672 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 11:18:40,770 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:23:42,946 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:23:42,953 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 11:23:43,030 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 11:23:44,078 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 11:23:44,156 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:28:45,968 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:28:45,973 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 11:28:46,036 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 11:28:48,789 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 11:28:48,891 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:33:51,959 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:33:51,971 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 11:33:52,118 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 11:33:53,395 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 11:33:53,500 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:38:56,394 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:38:56,400 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 11:38:56,478 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 11:43:58,804 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 11:43:58,847 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:49:02,297 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:49:02,306 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 11:49:02,393 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 11:49:03,399 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 11:49:03,471 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:54:06,986 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 11:54:07,009 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 11:54:07,105 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 11:59:09,372 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 11:59:09,406 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:04:11,443 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:04:11,459 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:04:11,583 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:04:12,777 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:04:12,844 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:09:14,946 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:09:14,960 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:09:15,142 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:09:16,126 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:09:16,206 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:14:18,125 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:14:18,129 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:14:18,187 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:14:20,932 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:14:20,993 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:19:22,840 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:19:22,853 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:19:23,016 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:19:24,247 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:19:24,361 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:24:25,731 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:24:25,738 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:24:25,840 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:24:27,040 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:24:27,106 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:29:28,638 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:29:28,644 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:29:28,713 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:29:31,723 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:29:31,787 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:34:34,224 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:34:34,236 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:34:34,336 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:34:35,782 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:34:35,845 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:39:38,953 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:39:38,964 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:39:39,119 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:39:40,133 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:39:40,196 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:44:41,841 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:44:41,845 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:44:41,905 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:44:44,915 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:44:44,980 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:49:47,198 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:49:47,218 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:49:47,391 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:49:48,679 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:49:48,774 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:54:50,298 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:54:50,306 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:54:50,402 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:54:51,846 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:54:51,905 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:59:53,360 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 12:59:53,363 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 12:59:53,414 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 12:59:56,578 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 12:59:56,638 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:04:59,966 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:05:00,005 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 13:05:00,275 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 13:05:02,525 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 13:05:02,589 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:10:06,172 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:10:06,203 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 13:10:06,353 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 13:15:07,662 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 13:15:07,704 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:20:09,964 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:20:09,971 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 13:20:10,125 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 13:20:12,017 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 13:20:12,074 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:25:15,066 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:25:15,075 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 13:25:15,175 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 13:30:17,793 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 13:30:17,823 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:35:19,244 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:35:19,281 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 13:35:19,381 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 13:35:20,571 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 13:35:20,647 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:40:24,120 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:40:24,127 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 13:40:24,214 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 13:40:25,189 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 13:40:25,248 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:45:26,987 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:45:26,992 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 13:45:27,058 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 13:45:30,250 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 13:45:30,320 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:50:32,329 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:50:32,335 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 13:50:32,430 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 13:50:33,029 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 13:50:33,092 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:55:34,579 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 13:55:34,614 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 13:55:34,731 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 13:55:35,928 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 13:55:35,993 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:00:37,803 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:00:37,807 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:00:37,875 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 14:00:40,662 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 14:00:40,727 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:05:42,587 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:05:42,602 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:05:42,761 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 14:05:44,592 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 14:05:44,682 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:10:47,493 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:10:47,505 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:10:47,665 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 14:00:39,206 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 14:00:39,247 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:05:42,537 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:05:42,550 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:05:42,670 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 14:05:44,847 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 14:05:44,915 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:10:46,782 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:10:46,793 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:10:46,900 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 14:10:46,979 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 14:10:47,056 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:48,550 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:48,554 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:15:48,620 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 14:10:48,421 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 14:10:48,488 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:50,017 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:50,020 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:15:50,060 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 14:10:47,537 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 14:10:47,621 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:49,403 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:49,408 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:15:49,455 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 14:10:46,836 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 14:10:46,909 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:48,626 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:48,631 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:15:48,694 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 14:10:48,339 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 14:10:48,402 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:50,114 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:50,116 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:15:50,160 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+2022-05-13 14:10:47,159 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2022-05-13 14:10:47,219 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:48,850 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+2022-05-13 14:15:48,854 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - Network optimization status: Optimal
+2022-05-13 14:15:48,920 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== End network optimization module ====
+amily_objective_DD     - INFO - Network profit excecution time: 0:05:03.236789
+2022-05-13 10:53:23,404 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 10:53:24,053 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 10:53:24,091 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 10:53:24,098 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 10:53:24,100 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 10:58:26,068 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 193416
+2022-05-13 10:58:26,157 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.073894
+2022-05-13 10:58:26,157 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 10:58:28,573 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 10:58:28,590 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 10:58:28,591 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 10:58:28,591 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 11:03:30,919 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2105528
+2022-05-13 11:03:31,264 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.680510
+2022-05-13 11:03:31,266 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 11:03:31,997 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 11:03:32,011 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 11:03:32,033 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 11:03:32,049 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 11:08:34,280 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 808992
+2022-05-13 11:08:34,593 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.589525
+2022-05-13 11:08:34,594 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 11:13:37,719 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 11:13:37,725 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 11:13:37,725 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 11:13:37,725 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 11:18:40,117 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1470524
+2022-05-13 11:18:40,317 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.597138
+2022-05-13 11:18:40,317 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 11:18:40,614 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 11:18:40,630 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 11:18:40,641 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 11:18:40,657 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 11:23:43,031 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1140470
+2022-05-13 11:23:43,179 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.559366
+2022-05-13 11:23:43,179 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 11:23:44,067 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 11:23:44,078 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 11:23:44,078 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 11:23:44,078 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 11:28:46,037 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2115138
+2022-05-13 11:28:46,144 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.073880
+2022-05-13 11:28:46,144 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 11:28:48,773 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 11:28:48,781 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 11:28:48,788 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 11:28:48,788 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 11:33:52,128 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1043390
+2022-05-13 11:33:52,349 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.575146
+2022-05-13 11:33:52,349 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 11:33:53,386 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 11:33:53,395 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 11:33:53,395 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 11:33:53,395 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 11:38:56,480 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2114106
+2022-05-13 11:38:56,658 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.269987
+2022-05-13 11:38:56,658 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 11:43:58,797 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 11:43:58,803 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 11:43:58,804 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 11:43:58,804 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 11:49:02,395 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1364721
+2022-05-13 11:49:02,562 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.763909
+2022-05-13 11:49:02,562 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 11:49:03,387 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 11:49:03,398 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 11:49:03,398 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 11:49:03,399 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 11:54:07,106 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1328624
+2022-05-13 11:54:07,264 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.876768
+2022-05-13 11:54:07,265 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 11:59:09,364 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 11:59:09,370 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 11:59:09,371 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 11:59:09,371 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:04:11,584 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2077080
+2022-05-13 12:04:11,743 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.378423
+2022-05-13 12:04:11,743 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:04:12,759 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:04:12,772 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:04:12,773 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:04:12,776 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:09:15,229 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2075702
+2022-05-13 12:09:15,485 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.725394
+2022-05-13 12:09:15,486 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:09:16,113 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:09:16,124 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:09:16,124 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:09:16,125 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:14:18,188 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2106669
+2022-05-13 12:14:18,293 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.177858
+2022-05-13 12:14:18,293 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:14:20,917 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:14:20,931 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:14:20,931 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:14:20,932 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:19:23,024 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 868160
+2022-05-13 12:19:23,288 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.369664
+2022-05-13 12:19:23,288 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:19:24,235 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:19:24,246 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:19:24,246 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:19:24,247 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:24:25,843 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2055308
+2022-05-13 12:24:26,014 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.776998
+2022-05-13 12:24:26,014 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:24:27,028 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:24:27,039 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:24:27,039 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:24:27,040 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:29:28,714 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2083464
+2022-05-13 12:29:28,830 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.799229
+2022-05-13 12:29:28,830 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:29:31,715 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:29:31,722 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:29:31,723 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:29:31,723 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:34:34,338 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2050561
+2022-05-13 12:34:34,515 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.799390
+2022-05-13 12:34:34,515 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:34:35,772 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:34:35,781 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:34:35,781 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:34:35,782 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:39:39,120 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1678890
+2022-05-13 12:39:39,311 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.538549
+2022-05-13 12:39:39,312 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:39:40,120 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:39:40,132 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:39:40,133 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:39:40,133 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:44:41,905 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2116527
+2022-05-13 12:44:41,998 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.875630
+2022-05-13 12:44:41,999 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:44:44,896 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:44:44,914 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:44:44,914 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:44:44,915 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:49:47,397 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 697101
+2022-05-13 12:49:47,597 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.691276
+2022-05-13 12:49:47,597 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:49:48,665 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:49:48,677 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:49:48,678 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:49:48,678 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:54:50,416 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2049423
+2022-05-13 12:54:50,910 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.239684
+2022-05-13 12:54:50,912 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:54:51,838 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:54:51,845 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:54:51,845 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:54:51,845 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 12:59:53,415 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1612429
+2022-05-13 12:59:53,503 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.664620
+2022-05-13 12:59:53,503 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 12:59:56,568 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 12:59:56,576 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 12:59:56,577 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 12:59:56,577 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 13:05:00,283 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 973389
+2022-05-13 13:05:00,595 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:04.026403
+2022-05-13 13:05:00,596 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 13:05:02,501 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 13:05:02,524 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 13:05:02,524 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 13:05:02,525 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 13:10:06,355 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1605007
+2022-05-13 13:10:06,544 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:04.028041
+2022-05-13 13:10:06,544 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 13:15:07,654 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 13:15:07,660 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 13:15:07,661 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 13:15:07,661 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 13:20:10,126 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1353861
+2022-05-13 13:20:10,373 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.719585
+2022-05-13 13:20:10,373 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 13:20:12,007 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 13:20:12,016 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 13:20:12,016 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 13:20:12,017 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 13:25:15,176 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1648274
+2022-05-13 13:25:15,358 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.350028
+2022-05-13 13:25:15,358 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 13:30:17,775 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 13:30:17,792 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 13:30:17,792 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 13:30:17,793 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 13:35:19,398 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2047106
+2022-05-13 13:35:19,717 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.941392
+2022-05-13 13:35:19,720 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 13:35:20,545 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 13:35:20,570 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 13:35:20,570 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 13:35:20,570 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 13:40:24,215 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2112043
+2022-05-13 13:40:24,386 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.823790
+2022-05-13 13:40:24,387 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 13:40:25,178 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 13:40:25,188 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 13:40:25,188 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 13:40:25,189 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 13:45:27,059 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1193682
+2022-05-13 13:45:27,164 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.984380
+2022-05-13 13:45:27,164 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 13:45:30,234 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 13:45:30,249 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 13:45:30,249 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 13:45:30,250 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 13:50:32,433 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1057340
+2022-05-13 13:50:32,676 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.433796
+2022-05-13 13:50:32,677 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 13:50:33,018 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 13:50:33,027 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 13:50:33,028 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 13:50:33,028 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 13:55:34,734 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2077632
+2022-05-13 13:55:35,017 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.996916
+2022-05-13 13:55:35,018 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 13:55:35,914 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 13:55:35,927 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 13:55:35,928 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 13:55:35,928 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:00:37,876 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1001040
+2022-05-13 14:00:37,969 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.052677
+2022-05-13 14:00:37,970 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 14:00:40,643 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 14:00:40,661 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:00:40,661 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:00:40,662 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:05:42,762 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2087788
+2022-05-13 14:05:42,970 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.316964
+2022-05-13 14:05:42,971 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 14:05:44,570 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 14:05:44,591 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:05:44,591 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:05:44,592 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:10:47,667 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2098197
+2022-05-13 14:10:47,924 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.339990
+2022-05-13 14:10:47,924 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+===
+2022-05-13 14:00:39,199 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 14:00:39,204 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:00:39,205 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:00:39,205 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:05:42,675 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2101708
+2022-05-13 14:05:42,885 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.684766
+2022-05-13 14:05:42,885 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 14:05:44,838 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 14:05:44,845 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:05:44,846 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:05:44,846 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:10:46,909 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1258306
+2022-05-13 14:10:47,098 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.259389
+2022-05-13 14:10:47,098 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+022-052022-05-13 14:05:43,923 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 14:05:43,941 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:05:43,942 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:05:43,942 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization2022-05-13 14:10:45,529 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1067191
+2022-05-13 14:10:45,729 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.316532
+2022-05-13 14:10:45,730 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 14:10:46,196 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 14:10:46,204 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:10:46,205 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - 2022-05-13 14:10:46,689 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2072332
+2022-05-13 14:10:46,952 -2022-05-13 14:10:47,32022-05-13 14:15:47,793 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2114337
+2022-05-13 14:15:47,896 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.698256
+2022-05-13 14:15:47,897 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:10:48,421 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:10:48,421 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:15:50,060 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 494738
+2022-05-13 14:15:50,142 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.728546
+2022-05-13 14:15:50,142 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+ module ====
+ers\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 14:10:46,962 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 14:10:46,972 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:10:46,973 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:10:46,976 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:15:48,621 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2089754
+2022-05-13 14:15:48,721 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.756682
+2022-05-13 14:15:48,722 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+
+2 - c:\users\aa2022-05-13 14:10:47,320 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 14:10:47,328 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:10:47,328 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - --2022-05-13 14:15:48,478 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2062886
+2022-05-13 14:15:48,584 - c:\users\aarc8\doc2022-05-13 14:15:49,157 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 2103372
+2022-05-13 14:15:49,272 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.951218
+2022-05-13 14:15:49,273 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:10:47,536 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:10:47,537 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:15:49,456 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1581960
+2022-05-13 14:15:49,532 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.004559
+2022-05-13 14:15:49,533 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+ly_objective_DD     - INFO - Network profit excecution time: 0:05:01.877145
+2022-05-13 14:15:49,028 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+ircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:00:39,443 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:05:42,017 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1307414
+2022-05-13 14:05:42,185 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.747724
+2022-05-13 14:05:42,185 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 14:05:43,187 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 14:05:43,195 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:05:43,196 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:05:43,196 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:10:46,657 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 1613750
+2022-05-13 14:10:46,825 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_optimal_results
 Traceback (most recent call last):
   File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 295, in objective_function0
-    )), distances, demands, profit, DOC_ik, vehicle, kpi_df2, airplanes_ik)
-UnboundLocalError: local variable 'kpi_df2' referenced before assignment
-2022-05-11 05:42:26,790 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_kml_results
-Traceback (most recent call last):
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 301, in objective_function0
-    write_kml_results(airports, profit, airplanes_ik)
-UnboundLocalError: local variable 'airplanes_ik' referenced before assignment
-2022-05-11 05:42:26,791 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_newtork_results
-Traceback (most recent call last):
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 307, in objective_function0
-    write_newtork_results(profit, kpi_df1, kpi_df2)
-UnboundLocalError: local variable 'kpi_df1' referenced before assignment
-2022-05-11 05:42:26,792 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.220581
-2022-05-11 05:42:26,793 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
-2022-05-11 05:47:28,656 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
-2022-05-11 05:47:28,663 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
-2022-05-11 05:47:28,664 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
-2022-05-11 05:47:28,664 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
-2022-05-11 05:47:28,442 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< network_optimization
-Traceback (most recent call last):
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 180, in objective_function0
-    computation_mode, list(airports.keys()), all_info_acft1, all_info_acft2, all_info_acft3)
-ValueError: too many values to unpack (expected 5)
-2022-05-11 05:47:28,444 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 0
-2022-05-11 05:47:28,444 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< writting dataframes
-Traceback (most recent call last):
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 274, in objective_function0
-    mach_1, passenger_capacity_1, fuel_mass_1, total_mission_flight_time_1, DOC_nd_1, SAR_1, distances_1,kpi_df2_1)
-UnboundLocalError: local variable 'kpi_df2_1' referenced before assignment
-2022-05-11 05:47:28,445 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_optimal_results
-Traceback (most recent call last):
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 295, in objective_function0
-    )), distances, demands, profit, DOC_ik, vehicle, kpi_df2, airplanes_ik)
-UnboundLocalError: local variable 'kpi_df2' referenced before assignment
-2022-05-11 05:47:28,445 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_kml_results
-Traceback (most recent call last):
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 301, in objective_function0
-    write_kml_results(airports, profit, airplanes_ik)
-UnboundLocalError: local variable 'airplanes_ik' referenced before assignment
-2022-05-11 05:47:28,446 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_newtork_results
-Traceback (most recent call last):
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD.py", line 307, in objective_function0
-    write_newtork_results(profit, kpi_df1, kpi_df2)
-UnboundLocalError: local variable 'kpi_df1' referenced before assignment
-2022-05-11 05:47:28,447 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:02.269368
-2022-05-11 05:47:28,448 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
-2022-05-11 05:47:28,791 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
-2022-05-11 05:47:28,798 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
-2022-05-11 05:47:28,799 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
-2022-05-11 05:47:28,799 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+    )), distances, demands, profit, DOC_ik, vehicle, kpi_df2_1, airplanes_ik)
+  File "c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output.py", line 388, in write_optimal_results
+    frequencies_db = np.load('Database/Network/frequencies.npy',allow_pickle='TRUE').item()
+  File "C:\Users\aarc8\anaconda3\envs\MDOAirB_base\lib\site-packages\numpy\lib\npyio.py", line 440, in load
+    pickle_kwargs=pickle_kwargs)
+  File "C:\Users\aarc8\anaconda3\envs\MDOAirB_base\lib\site-packages\numpy\lib\format.py", line 732, in read_array
+    array = pickle.load(fp, **pickle_kwargs)
+_pickle.UnpicklingError: pickle data was truncated
+2022-05-13 14:10:46,888 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:03.700729
+2022-05-13 14:10:46,895 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====
+2022-05-13 14:10:48,330 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== Start network profit module ====
+2022-05-13 14:10:48,338 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Aircraft passed sizing and checks status: 0
+2022-05-13 14:10:48,338 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start DOC matrix calculation ----
+2022-05-13 14:10:48,339 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ---- Start Network Optimization ----
+2022-05-13 14:15:50,160 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit [$USD]: 873084
+2022-05-13 14:15:50,231 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - Network profit excecution time: 0:05:01.900047
+2022-05-13 14:15:50,232 - c:\users\aarc8\documents\github\mdoairb_base\framework\Optimization\aircraft_family_objective_DD     - INFO - ==== End network profit module ====

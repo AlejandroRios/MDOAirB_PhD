@@ -374,6 +374,8 @@ def turbofan(altitude, mach, throttle_position, vehicle):
     # [kg/h]   # correção de 15# baseado em dados de motores reais
     fuel_flow = 1.15*fuel_air*mdot*3600
 
+    TSFC = fuel_flow/(force)
+
 
     engine['performance_parameters'] = np.array([force, fuel_flow, 0, 0, 0, 0, 0, 0, weight,fgros],dtype=object)
     engine['total_pressures'] = np.array([P0_0, P0_1, P0_2, P0_3, P0_4, P0_5, P0_8, P0_13, P0_15],dtype=object)

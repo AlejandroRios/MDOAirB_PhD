@@ -176,7 +176,7 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
             log.info('---- Start Network Optimization ----')
             # Network optimization that maximizes the network profit
             try:
-                profit, vehicle, kpi_df1, kpi_df2, airplanes_ik = family_network_optimization(
+                profit, vehicle01,vehicle02,vehicle03, kpi_df1_1, kpi_df2_1,kpi_df1_2, kpi_df2_2,kpi_df1_3, kpi_df2_3, airplanes_ik = family_network_optimization(
                     computation_mode, list(airports.keys()), all_info_acft1, all_info_acft2, all_info_acft3)
             except:
                 log.error(
@@ -292,7 +292,7 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
 
             try:
                 write_optimal_results(x, list(airports.keys(
-                )), distances, demands, profit, DOC_ik, vehicle, kpi_df2, airplanes_ik)
+                )), distances, demands, profit, DOC_ik, vehicle, kpi_df2_1, airplanes_ik)
             except:
                 log.error(
                     ">>>>>>>>>> Error at <<<<<<<<<<<< write_optimal_results", exc_info=True)
@@ -304,7 +304,7 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
                     ">>>>>>>>>> Error at <<<<<<<<<<<< write_kml_results", exc_info=True)
 
             try:
-                write_newtork_results(profit, kpi_df1, kpi_df2)
+                write_newtork_results(profit, kpi_df1_1, kpi_df2_1)
             except:
                 log.error(
                     ">>>>>>>>>> Error at <<<<<<<<<<<< write_newtork_results", exc_info=True)
