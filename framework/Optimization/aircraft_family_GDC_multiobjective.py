@@ -93,19 +93,14 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
         # with open('Database/Family/40_to_100/vehicle/'+str(x[0])+'.pkl', 'rb') as f:
         #     vehicle = pickle.load(f)
 
-        with open('Database/Family_DD/40_to_100/all_dictionaries/'+str(x[0])+'.pkl', 'rb') as f:
+        with open('Database/Family/40_to_100/all_dictionaries/'+str(x[0])+'.pkl', 'rb') as f:
             all_info_acft1 = pickle.load(f)
 
-        with open('Database/Family_DD/101_to_160/all_dictionaries/'+str(x[1])+'.pkl', 'rb') as f:
+        with open('Database/Family/101_to_160/all_dictionaries/'+str(x[1])+'.pkl', 'rb') as f:
             all_info_acft2 = pickle.load(f)
 
-        with open('Database/Family_DD/161_to_220/all_dictionaries/'+str(x[2])+'.pkl', 'rb') as f:
+        with open('Database/Family/161_to_220/all_dictionaries/'+str(x[2])+'.pkl', 'rb') as f:
             all_info_acft3 = pickle.load(f)
-
-        # print(demands)
-        # import pprint
-
-        # pprint.pprint(doc0)
 
         # print(all_info_acft3['vehicle']['aircraft']['passenger_capacity'])
         # print(all_info_acft3['vehicle']['fuselage']['seat_abreast_number'])
