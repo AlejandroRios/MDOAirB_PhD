@@ -77,29 +77,25 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
     try:
         # =============================================================================
         # Airplane sizing and checks
-        # with open('Database/Family/40_to_100/airports/'+str(x[0])+'.pkl', 'rb') as f:
-        #     airports = pickle.load(f)
 
-        # with open('Database/Family/40_to_100/distances/'+str(x[0])+'.pkl', 'rb') as f:
-        #     distances = pickle.load(f)
+        # with open('Database/Family/40_to_100/all_dictionaries/'+str(x[0])+'.pkl', 'rb') as f:
+        #     all_info_acft1 = pickle.load(f)
 
-        # with open('Database/Family/40_to_100/demands/'+str(x[0])+'.pkl', 'rb') as f:
-        #     demands = pickle.load(f)
+        # with open('Database/Family/101_to_160/all_dictionaries/'+str(x[1])+'.pkl', 'rb') as f:
+        #     all_info_acft2 = pickle.load(f)
 
-        # with open('Database/Family/40_to_100/DOC/'+str(x[0])+'.pkl', 'rb') as f:
-        #     DOC_ik = pickle.load(f)
+        # with open('Database/Family/161_to_220/all_dictionaries/'+str(x[2])+'.pkl', 'rb') as f:
+        #     all_info_acft3 = pickle.load(f)
 
-        # with open('Database/Family/40_to_100/vehicle/'+str(x[0])+'.pkl', 'rb') as f:
-        #     vehicle = pickle.load(f)
 
-        with open('Database/Family/40_to_100/all_dictionaries/'+str(x[0])+'.pkl', 'rb') as f:
-            all_info_acft1 = pickle.load(f)
+        # with open('Database/Family/40_to_100/all_dictionaries/'+str(x[0])+'.pkl', 'rb') as f:
+        #     all_info_acft1 = pickle.load(f)
 
-        with open('Database/Family/101_to_160/all_dictionaries/'+str(x[1])+'.pkl', 'rb') as f:
-            all_info_acft2 = pickle.load(f)
+        # with open('Database/Family/101_to_160/all_dictionaries/'+str(x[1])+'.pkl', 'rb') as f:
+        #     all_info_acft2 = pickle.load(f)
 
-        with open('Database/Family/161_to_220/all_dictionaries/'+str(x[2])+'.pkl', 'rb') as f:
-            all_info_acft3 = pickle.load(f)
+        # with open('Database/Family/161_to_220/all_dictionaries/'+str(x[2])+'.pkl', 'rb') as f:
+        #     all_info_acft3 = pickle.load(f)
 
         # print(all_info_acft3['vehicle']['aircraft']['passenger_capacity'])
         # print(all_info_acft3['vehicle']['fuselage']['seat_abreast_number'])
