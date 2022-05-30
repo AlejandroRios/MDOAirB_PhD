@@ -1,8 +1,8 @@
-2022-05-29 09:06:51,745 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
-2022-05-29 09:06:51,751 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
-2022-05-29 09:06:51,751 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
-2022-05-29 09:06:51,752 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-05-29 20:58:48,297 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-05-29 20:58:48,304 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-05-29 20:58:48,304 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-05-29 20:58:48,306 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
 ly_network_optimization     - INFO - Network optimization status: Optimal
-2022-05-29 09:06:51,688 - c:\users\aarc8\documents\gi2022-05-29 09:06:51,688 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_DD_multiobjective     - INFO - Network profit [$USD]: 2142322
-2022-05-29 09:06:51,760 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_DD_multiobjective     - INFO - Network profit excecution time: 0:05:02.295257
-2022-05-29 09:06:51,760 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_DD_multiobjective     - INFO - ==== End network profit module ====
+2022-05-29 20:58:48,229 - c:\users\aarc8\documents\gi2022-05-29 20:58:48,230 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_DD_multiobjective     - INFO - Network profit [$USD]: 1985694
+2022-05-29 20:58:48,313 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_DD_multiobjective     - INFO - Network profit excecution time: 0:05:02.108215
+2022-05-29 20:58:48,313 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_DD_multiobjective     - INFO - ==== End network profit module ====
