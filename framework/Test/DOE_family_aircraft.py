@@ -586,7 +586,7 @@ def main(argv):
         # sampling_type = 'int_lhs'
         sampling_type = 'real_lhs'
 
-        # Plot type (0-simple, 1-complete)
+        # Plot type (0-simple, 1-complete)Dear Dr. Filippone,
         plot_type = 1
         # =========================================
 
