@@ -93,13 +93,13 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
         # with open('Database/Family/40_to_100/vehicle/'+str(x[0])+'.pkl', 'rb') as f:
         #     vehicle = pickle.load(f)
 
-        with open('Database/Family/40_to_100/all_dictionaries/'+str(58)+'.pkl', 'rb') as f:
+        with open('Database/Family/40_to_100/all_dictionaries/'+str(66)+'.pkl', 'rb') as f:
             all_info_acft1 = pickle.load(f)
 
         with open('Database/Family/101_to_160/all_dictionaries/'+str(13)+'.pkl', 'rb') as f:
             all_info_acft2 = pickle.load(f)
 
-        with open('Database/Family/161_to_220/all_dictionaries/'+str(31)+'.pkl', 'rb') as f:
+        with open('Database/Family/161_to_220/all_dictionaries/'+str(60)+'.pkl', 'rb') as f:
             all_info_acft3 = pickle.load(f)
 
         # print(all_info_acft3['vehicle']['aircraft']['passenger_capacity'])
@@ -216,6 +216,7 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
 
                     results = vehicle['results']
                     aircraft = vehicle['aircraft']
+                    operations = vehicle['operations']
 
                     mach_flatt = flatten_dict(mach)
                     mach_df = pd.DataFrame.from_dict(
@@ -270,22 +271,72 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
                     # Total distance
                     kpi_df2['total_distance'] = kpi_df2['aircraft_number'] * \
                         kpi_df2['distances']
-                    print('=======================================================')
-                    print('total dist',kpi_df2['total_distance'].sum() )
+
                     # Total pax
                     kpi_df2['total_pax'] = kpi_df2['aircraft_number'] * \
                         kpi_df2['pax_num']
-                    print('totalpax',kpi_df2['total_pax'].sum() )
+
                     # Total cost
                     kpi_df2['total_cost'] = kpi_df2['aircraft_number'] * \
                         kpi_df2['doc']
-                    print('total cost',kpi_df2['total_cost'].sum() )
-                    print('aircraft num',kpi_df2['aircraft_number'].sum() )
+
                     results['network_density'] = results['arcs_number'] / \
                         (results['nodes_number'] *
                          results['nodes_number']-results['nodes_number'])
                     kpi_df2['total_time'] = kpi_df2['aircraft_number'] * \
                         kpi_df2['time']
+
+                    number_aircraft2 = np.round(((kpi_df2['total_time'].sum()))/(operations['maximum_daily_utilization']*60))
+
+                    sectos_per_aircraft = (results['number_of_frequencies']/number_aircraft2)
+
+                    avg_deg_nodes = float(results['avg_degree_nodes'])
+                    average_distance = kpi_df2['active_arcs']*kpi_df2['distances']
+                    average_distance = average_distance[average_distance > 0].mean()
+
+                    total_cost = results['total_cost']
+
+                    total_revenue = results['total_revenue']
+                    total_profit = results['profit']
+
+                    margin_percent = 100*(total_profit/total_revenue)
+                    average_DOC = kpi_df2['DOC_nd']
+                    average_DOC = average_DOC[average_DOC > 0].mean()
+
+                    REV = 1*total_pax*operations['average_ticket_price']
+                    COST = 1.2*total_cost
+                    RASK = REV/(total_pax*total_distance)
+                    CASK = COST/(total_pax*total_distance)
+                    NP = RASK-CASK
+
+
+                    print('=======================================================')
+                    print('active arcs',kpi_df2['active_arcs'].sum())
+                    print('total cost',kpi_df2['total_cost'].sum() )
+                    print('num flights', results['number_of_frequencies'])
+                    print('aircraft num', number_aircraft2)
+                    print('Network density: ',float(results['network_density']))
+                    print('Average path length: ', float(average_distance))
+                    print('avg clust',float(results['average_clustering']))
+                    print('avg deg nodes',avg_deg_nodes)
+                    print('sectors per aircraft',sectos_per_aircraft )
+
+                    print('=======================================================')
+                    print('total dist',kpi_df2['total_distance'].sum() )
+                    print('totalpax',kpi_df2['total_pax'].sum() )
+                    print('tot cost', COST)
+                    print('tot rev', total_revenue)
+                    print('tot profit', total_profit)
+                    print('margin',margin_percent)
+                    print('avg DOC node',average_DOC)
+                    print('NP', NP)
+                    print('NPV', NPV)
+
+
+
+
+
+                    
 
                     return kpi_df2, kpi_df3
 

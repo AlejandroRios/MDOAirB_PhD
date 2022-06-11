@@ -126,6 +126,13 @@ def airplane_sizing(vehicle,x=None):
         opr = df.loc[index, 'OPR']
         tit = df.loc[index, 'TIT (K)']
         engine['type'] = 0
+
+        de = 1.7
+        bpr = 6.2
+        fpr = 1.8
+        opr = 30
+        tit = 1480
+        engine['type'] = 0
     
     else:
         engine['type'] = 1
