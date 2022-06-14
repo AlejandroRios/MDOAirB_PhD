@@ -449,11 +449,16 @@ def family_network_optimization(computation_mode, airports_keys, acft1, acft2, a
                     revenue_mat[i][j] = revenue_1_list[idx]
                     idx = idx+1
 
-
+    
+    
     list_of_airplanes_processed = np.zeros((len(airports_keys),len(airports_keys)))
     for i in range(len(airports_keys)):
         for j in range(len(airports_keys)):
             list_of_airplanes_processed[i][j]= aircrafts1[i][j] +aircrafts2[i][j] + aircrafts3[i][j]
+
+    print('num flights1:', np.sum(aircrafts1))
+    print('num flights2:', np.sum(aircrafts2))
+    print('num flights3:', np.sum(aircrafts3))
 
     # print('Aircraft matrix:',list_of_airplanes_processed)
 

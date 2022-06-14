@@ -50,7 +50,7 @@ from framework.utilities.output import (write_bad_results, write_kml_results,
                                         write_newtork_results,
                                         write_optimal_results,
                                         write_unfeasible_results)
-from framework.Economics.net_present_value import main_cost
+from framework.Economics.net_present_value import main_cost,cash_flow_matrix, aircraft_price, break_even
 from haversine import Unit, haversine
 from jsonschema import validate
 
@@ -93,13 +93,23 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
         # with open('Database/Family/40_to_100/vehicle/'+str(x[0])+'.pkl', 'rb') as f:
         #     vehicle = pickle.load(f)
 
-        with open('Database/Family/40_to_100/all_dictionaries/'+str(66)+'.pkl', 'rb') as f:
+        # with open('Database/Family/40_to_100/all_dictionaries/'+str(66)+'.pkl', 'rb') as f:
+        #     all_info_acft1 = pickle.load(f)
+
+        # with open('Database/Family/101_to_160/all_dictionaries/'+str(13)+'.pkl', 'rb') as f:
+        #     all_info_acft2 = pickle.load(f)
+
+        # with open('Database/Family/161_to_220/all_dictionaries/'+str(60)+'.pkl', 'rb') as f:
+        #     all_info_acft3 = pickle.load(f)
+
+
+        with open('Database/Family_DD/40_to_100/all_dictionaries/'+str(18)+'.pkl', 'rb') as f:
             all_info_acft1 = pickle.load(f)
 
-        with open('Database/Family/101_to_160/all_dictionaries/'+str(13)+'.pkl', 'rb') as f:
+        with open('Database/Family_DD/101_to_160/all_dictionaries/'+str(28)+'.pkl', 'rb') as f:
             all_info_acft2 = pickle.load(f)
 
-        with open('Database/Family/161_to_220/all_dictionaries/'+str(60)+'.pkl', 'rb') as f:
+        with open('Database/Family_DD/161_to_220/all_dictionaries/'+str(53)+'.pkl', 'rb') as f:
             all_info_acft3 = pickle.load(f)
 
         # print(all_info_acft3['vehicle']['aircraft']['passenger_capacity'])
@@ -213,6 +223,19 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
             try:
 
                 def flatten_update(vehicle, mach, passenger_capacity, fuel_mass, total_mission_flight_time, DOC_nd, SAR, distances,kpi_df2):
+                
+                    MTOW_baseline = 22010
+                    thrust_maximum_baseline = 8895
+
+                    aircraft = vehicle['aircraft']
+
+                    MTOW = aircraft['maximum_takeoff_weight']
+                    thrust_maximum = (MTOW/22000)*8895
+
+
+                    MTOW_factor = MTOW/MTOW_baseline
+                    thrust_factor = thrust_maximum/thrust_maximum_baseline
+
 
                     results = vehicle['results']
                     aircraft = vehicle['aircraft']
@@ -288,7 +311,21 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
 
                     number_aircraft2 = np.round(((kpi_df2['total_time'].sum()))/(operations['maximum_daily_utilization']*60))
 
-                    sectos_per_aircraft = (results['number_of_frequencies']/number_aircraft2)
+                    try:
+                        sectos_per_aircraft = (results['number_of_frequencies']/number_aircraft2)
+                    except:
+                        sectos_per_aircraft = 0
+
+                    try:
+                        total_distance =  kpi_df2_1['total_distance'].sum() 
+                    except:
+                        total_distance =  0
+
+                    try:
+                        total_pax = results['covered_demand']
+                    except:
+                        total_pax = 0
+
 
                     avg_deg_nodes = float(results['avg_degree_nodes'])
                     average_distance = kpi_df2['active_arcs']*kpi_df2['distances']
@@ -303,40 +340,85 @@ def objective_function0(x, original_vehicle, computation_mode, route_computation
                     average_DOC = kpi_df2['DOC_nd']
                     average_DOC = average_DOC[average_DOC > 0].mean()
 
+                    
+                    
+                    
+
                     REV = 1*total_pax*operations['average_ticket_price']
                     COST = 1.2*total_cost
-                    RASK = REV/(total_pax*total_distance)
-                    CASK = COST/(total_pax*total_distance)
+
+                    try:
+                        RASK = REV/(total_pax*total_distance)
+                        if RASK == np.inf:
+                            RASK = 0
+                    except ZeroDivisionError as e:
+                        RASK = 0
+                        
+                    try:
+                        CASK = COST/(total_pax*total_distance)
+                        if CASK == np.inf:
+                            CASK = 0
+                    except ZeroDivisionError:
+                        CASK = 0
+
                     NP = RASK-CASK
+                    MTOW_baseline = 22010
+                    # wing_surface_baseline = 52
+                    # engines_number_baseline = 2
+                    # engine_diameter_baseline = 1.52
+                    # pax_number_baseline = 50
+                    thrust_maximum_baseline = 8895
+                    # KVA_baseline = 75
+                    p = 14
+                    share = 0.6
+                    IR = 0.05
+                    
+                    aircraft = vehicle['aircraft']
+                    wing = vehicle['wing']
+                    engine = vehicle['engine']
+
+                    MTOW = aircraft['maximum_takeoff_weight']
+                    thrust_maximum = (MTOW/22000)*8895
+                    wing_surface = wing['area']
+                    wing_surface_ft = wing_surface * 10.764
+                    engine_diameter = engine['diameter']
+                    engine_diameter_in = engine_diameter * 39.3701
+                    engines_number = aircraft['number_of_engines']
+                    pax_number = aircraft['passenger_capacity']
+                    KVA = 75
 
 
-                    print('=======================================================')
-                    print('active arcs',kpi_df2['active_arcs'].sum())
-                    print('total cost',kpi_df2['total_cost'].sum() )
-                    print('num flights', results['number_of_frequencies'])
-                    print('aircraft num', number_aircraft2)
+                    total_net_present_value, cash_flow, present_value,cost = cash_flow_matrix(MTOW_factor,thrust_factor,MTOW,share,p,wing_surface_ft,engine_diameter_in,pax_number,KVA,IR)
+
+                    breakeven = break_even(MTOW_factor,thrust_factor,MTOW,share,p,wing_surface_ft,engine_diameter_in,pax_number,KVA,IR)
+                    acft_price = aircraft_price(MTOW,share)
+
+                    print('==========================Network=============================')
+                    print('active arcs:',kpi_df2['active_arcs'].sum())
+                    print('total cost:',kpi_df2['total_cost'].sum() )
+                    print('num flights:', results['number_of_frequencies'])
+                    print('aircraft num:', number_aircraft2)
                     print('Network density: ',float(results['network_density']))
                     print('Average path length: ', float(average_distance))
-                    print('avg clust',float(results['average_clustering']))
-                    print('avg deg nodes',avg_deg_nodes)
-                    print('sectors per aircraft',sectos_per_aircraft )
+                    print('avg clust:',float(results['average_clustering']))
+                    print('avg deg nodes:',avg_deg_nodes)
+                    print('sectors per aircraft:',sectos_per_aircraft )
 
-                    print('=======================================================')
-                    print('total dist',kpi_df2['total_distance'].sum() )
-                    print('totalpax',kpi_df2['total_pax'].sum() )
-                    print('tot cost', COST)
-                    print('tot rev', total_revenue)
-                    print('tot profit', total_profit)
-                    print('margin',margin_percent)
-                    print('avg DOC node',average_DOC)
-                    print('NP', NP)
-                    print('NPV', NPV)
-
-
-
-
-
-                    
+                    print('=====================Economics==================================')
+                    print('total dist:',kpi_df2['total_distance'].sum() )
+                    print('totalpax:',kpi_df2['total_pax'].sum() )
+                    print('tot cost:', COST)
+                    print('tot rev:', total_revenue)
+                    print('tot profit:', total_profit)
+                    print('margin:',margin_percent)
+                    print('avg DOC node:',average_DOC)
+                    print('NP:', NP)
+                    print('NPV:', total_net_present_value)
+                    print('prod cost:',main_cost(vehicle))
+                    print('acft price:', acft_price)
+                    print('breakeven:', breakeven)
+                    print('======================================================')
+                    print('======================================================')
 
                     return kpi_df2, kpi_df3
 
@@ -692,7 +774,7 @@ def objective_function(vehicle, x=None):
     # x = [32, 11, 5] # opt
     # x = [52,32,56]
     # x = [38, 29, 60]
-    x = [15,21,999] # mono
+    x = [66,13,60] # mono
 
     if not fixed_aircraft:
         res, res2 = objective_function0(x, fixed_parameters, computation_mode,

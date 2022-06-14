@@ -96,7 +96,7 @@ for i, j in arcs:
         x2, y2 = m(lon_coordinates[j], lat_coordinates[j])
         color_value = plt.cm.viridis(freq_matrix[i][j]/10)
         m.drawgreatcircle(lon_coordinates[i], lat_coordinates[i], lon_coordinates[j],
-                          lat_coordinates[j], linewidth=freq_matrix[i][j]/2, color=color_value, alpha=0.9)
+                          lat_coordinates[j], linewidth=freq_matrix[i][j]/2, color=color_value, linestyle='-', alpha=0.5)
 
 departure_airports = ["FRA", "LHR", "CDG", "AMS",
                       "MAD", "BCN", "FCO", "DUB", "VIE", "ZRH",'ARN','DME','HEL','IST','KBP']

@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 # FUNCTIONS
 # =============================================================================
 
-def aircraft_price():
+def aircraft_price(MTOW,share):
     '''
     Methodology from Airbus price list (Narrow Bodies, 1 aisle) 2018
     Inputs:
@@ -54,7 +54,7 @@ def aircraft_price():
     return price*1e6
 
 
-def market_info():
+def market_info(MTOW,share):
     '''
     Methodology from
     Inputs:
@@ -66,11 +66,11 @@ def market_info():
     '''
     share_reference = 0.6
     share_factor = share/share_reference
-    price = aircraft_price()
+    price = aircraft_price(MTOW,share)
     return share_reference, share_factor, price
 
 
-def delivery_forecast():
+def delivery_forecast(MTOW,share):
     '''
     Methodology from
     Inputs:
@@ -78,7 +78,7 @@ def delivery_forecast():
     Outputs:
         -
     '''
-    _, share_factor, _ = market_info()
+    _, share_factor, _ = market_info(MTOW,share)
     year = list(range(1, 16))
     deliveries_list = [0, 0, 0, 0, 6, 20, 44, 92, 94, 102, 94, 90, 84, 30, 10]
 
@@ -402,7 +402,7 @@ def total_non_recurrig_year_cost(MTOW_factor,thrust_factor):
 # =============================================================================
 
 
-def material():
+def material(MTOW,wing_surface_ft,thrust_factor,engine_diameter_in,pax_number,KVA):
     '''
     MATERIAL COSTS
     Methodology from Roskam???
@@ -448,7 +448,7 @@ def material():
     return materials_cost
 
 
-def man_power():
+def man_power( MTOW_factor,MTOW,share,p):
     '''
     MANPOWER COST
     Methodology from Roskam???
@@ -461,7 +461,7 @@ def man_power():
         - Baseline's ???
         - why p = 14 - ciclo e 145
     '''
-    _, delivers = delivery_forecast()
+    _, delivers = delivery_forecast(MTOW,share)
     LCPH = 25
     baseline = [0, 0, 0, 0, 36714, 26452, 23363, 21451,
                 20218, 19416, 18899, 18581, 18389, 18281, 18173]
@@ -475,7 +475,7 @@ def man_power():
     return recurring_man_power_cost
 
 
-def cost_matrix(MTOW_factor,thrust_factor):
+def cost_matrix(MTOW_factor,thrust_factor,MTOW,share,wing_surface_ft,engine_diameter_in,pax_number,KVA,p):
     '''
     Cost Matrix
     Methodology from Roskam???
@@ -487,9 +487,9 @@ def cost_matrix(MTOW_factor,thrust_factor):
         -
     '''
     total_non_recurring_cost = total_non_recurrig_year_cost(MTOW_factor,thrust_factor)
-    _, deliveries = delivery_forecast()
-    material_costs = material()
-    recurring_man_power_cost = man_power()
+    _, deliveries = delivery_forecast(MTOW,share)
+    material_costs = material(MTOW,wing_surface_ft,thrust_factor,engine_diameter_in,pax_number,KVA)
+    recurring_man_power_cost = man_power(MTOW_factor,MTOW,share,p)
 
     costs = []
     for i in range(p):
@@ -506,7 +506,7 @@ def cost_matrix(MTOW_factor,thrust_factor):
     return costs
 
 
-def cash_flow_matrix(MTOW_factor,thrust_factor):
+def cash_flow_matrix(MTOW_factor,thrust_factor,MTOW,share,p,wing_surface_ft,engine_diameter_in,pax_number,KVA,IR):
     '''
     Cash Flow Matrix
     Methodology from Roskam???
@@ -517,9 +517,9 @@ def cash_flow_matrix(MTOW_factor,thrust_factor):
     TODO's:
         - This shouldnt perform a summatory? - ans yes!
     '''
-    price = aircraft_price()
-    _, deliveries = delivery_forecast()
-    costs = cost_matrix(MTOW_factor,thrust_factor)
+    price = aircraft_price(MTOW,share)
+    _, deliveries = delivery_forecast(MTOW,share)
+    costs = cost_matrix(MTOW_factor,thrust_factor,MTOW,share,wing_surface_ft,engine_diameter_in,pax_number,KVA,p)
 
     total_net_present_value = np.zeros(1)
     cash_flow = []
@@ -536,7 +536,7 @@ def cash_flow_matrix(MTOW_factor,thrust_factor):
     return total_net_present_value, cash_flow, present_value ,costs
 
 
-def IRR():
+def IRR(MTOW,IR):
     '''
     IRR function
     Methodology from Roskam???
@@ -548,7 +548,7 @@ def IRR():
         - Test with other values
         - Reference?
     '''
-    _, cash_flow, _ = cash_flow_matrix(MTOW_factor,thrust_factor)
+    _, cash_flow, _ = cash_flow_matrix(MTOW_factor,thrust_factor,MTOW,share,p,wing_surface_ft,engine_diameter_in,pax_number,KVA,IR)
     n = len(cash_flow)
     r = 0
     f = 0
@@ -565,7 +565,7 @@ def IRR():
     return r
 
 
-def break_even():
+def break_even(MTOW_factor,thrust_factor,MTOW,share,p,wing_surface_ft,engine_diameter_in,pax_number,KVA,IR):
     '''
     Break even calculation
     Methodology from Roskam???
@@ -578,7 +578,7 @@ def break_even():
         - Test other cases
         - This perform a interpolation
     '''
-    _, _, present_value = cash_flow_matrix(MTOW_factor,thrust_factor)
+    total_net_present_value, cash_flow, present_value ,costs = cash_flow_matrix(MTOW_factor,thrust_factor,MTOW,share,p,wing_surface_ft,engine_diameter_in,pax_number,KVA,IR)
     break_even = np.zeros(1)
     for i in range(1, p):
         x1 = i
@@ -627,7 +627,7 @@ def main_cost(vehicle):
     total_non_rec_cost  = total_non_recurrig_year_cost(MTOW_factor,thrust_factor)
     # print('Total non recurring year cost: ', total_non_rec_cost )
 
-    material_costs = material()
+    material_costs = material(MTOW,wing_surface_ft,thrust_factor,engine_diameter_in,pax_number,KVA)
     # print('Material cost: ', material_costs)
 
     # print('Man power cost:', man_power())
@@ -635,7 +635,7 @@ def main_cost(vehicle):
     # print(delivery_forecast())
     # print('Matrix cost:', cost_matrix(MTOW_factor,thrust_factor))
 
-    total_net_present_value, cash_flow, present_value,cost = cash_flow_matrix(MTOW_factor,thrust_factor)
+    total_net_present_value, cash_flow, present_value,cost = cash_flow_matrix(MTOW_factor,thrust_factor,MTOW,share,p,wing_surface_ft,engine_diameter_in,pax_number,KVA,IR)
 
 
     # print('Cash flow: ', cash_flow)
@@ -650,19 +650,19 @@ def main_cost(vehicle):
 
     return sum_cost_prod
 
-# def load_info_from_dicts(dictionary):
-#     airports = dictionary['airports']
-#     distances = dictionary['distances']
-#     demands = dictionary['demands']
-#     DOC_ik = dictionary['DOC_ik']
-#     DOC_nd = dictionary['DOC_nd']
-#     fuel_mass = dictionary['fuel_mass']
-#     total_mission_flight_time = dictionary['total_mission_flight_time']
-#     mach = dictionary['mach']
-#     passenger_capacity = dictionary['passenger_capacity']
-#     SAR = dictionary['SAR']
-#     vehicle = dictionary['vehicle']
-#     return airports, distances, demands, DOC_ik, DOC_nd, fuel_mass, total_mission_flight_time, mach, passenger_capacity, SAR, vehicle
+def load_info_from_dicts(dictionary):
+    airports = dictionary['airports']
+    distances = dictionary['distances']
+    demands = dictionary['demands']
+    DOC_ik = dictionary['DOC_ik']
+    DOC_nd = dictionary['DOC_nd']
+    fuel_mass = dictionary['fuel_mass']
+    total_mission_flight_time = dictionary['total_mission_flight_time']
+    mach = dictionary['mach']
+    passenger_capacity = dictionary['passenger_capacity']
+    SAR = dictionary['SAR']
+    vehicle = dictionary['vehicle']
+    return airports, distances, demands, DOC_ik, DOC_nd, fuel_mass, total_mission_flight_time, mach, passenger_capacity, SAR, vehicle
 
 # import pickle
 # with open('Database/Family/40_to_100/all_dictionaries/'+str(10)+'.pkl', 'rb') as f:
@@ -670,3 +670,7 @@ def main_cost(vehicle):
 
 # vehicle = all_info_acft1['vehicle']
 # print(main_cost(vehicle))
+
+# MTOW = 50000
+
+# total_net_present_value, cash_flow, present_value,cost = cash_flow_matrix(MTOW_factor,thrust_factor,MTOW,share = 0.6,p = 14)
