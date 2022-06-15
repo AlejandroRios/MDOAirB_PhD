@@ -1,8 +1,8 @@
-2022-06-13 22:08:16,340 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
-2022-06-13 22:08:16,347 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
-2022-06-13 22:08:16,347 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
-2022-06-13 22:08:16,349 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
+2022-06-14 23:50:40,365 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing aircraft results ====
+2022-06-14 23:50:40,370 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing aircraft results ====
+2022-06-14 23:50:40,370 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== Start writing klm results ====
+2022-06-14 23:50:40,372 - c:\users\aarc8\documents\github\mdoairb_base\framework\utilities\output     - INFO - ==== End writing klm results ====
 ly_network_optimization     - INFO - Network optimization status: Optimal
-2022-06-13 22:08:16,262 - c:\users\aarc8\documents\github2022-06-13 22:08:16,263 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_GDC_multiobjective     - INFO - Network profit [$USD]: 2167058
-2022-06-13 22:08:16,358 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_GDC_multiobjective     - INFO - Network profit excecution time: 0:05:01.502145
-2022-06-13 22:08:16,358 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_GDC_multiobjective     - INFO - ==== End network profit module ====
+2022-06-14 23:50:40,297 - c:\users\aarc8\documents\github2022-06-14 23:50:40,298 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_GDC_multiobjective     - INFO - Network profit [$USD]: 1985694
+2022-06-14 23:50:40,379 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_GDC_multiobjective     - INFO - Network profit excecution time: 0:05:01.657050
+2022-06-14 23:50:40,379 - c:\Users\aarc8\Documents\github\MDOAirB_base\framework\Optimization\aircraft_family_GDC_multiobjective     - INFO - ==== End network profit module ====
