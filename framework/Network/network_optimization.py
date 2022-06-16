@@ -323,6 +323,7 @@ def network_optimization(computation_mode, airports_keys, acft1):
                 list_of_pax.append(values[v])
 
         print('flow',sum(list_of_pax))
+        print('freqs',sum(list_aircrafts1))
 
         idx = 0
         fraction = np.zeros((len(airports_keys),len(airports_keys)))

@@ -55,6 +55,8 @@ from framework.Sizing.performance_constraints import *
 from framework.utilities.logger import get_logger
 from framework.utilities.plot_simple_aircraft import plot3d
 from framework.utilities.plot_tigl_aircraft import plot3d_tigl
+
+from framework.utilities.payload_range_diagram import payload_range
 from joblib import dump, load
 
 # =============================================================================
@@ -593,6 +595,60 @@ def airplane_sizing(vehicle,x=None):
 
     aircraft['CD0_landing'] = CD0_landing
 
+    Payload_1 = aircraft['payload_weight']
+    Payload_2 = aircraft['maximum_takeoff_weight'] - aircraft['operational_empty_weight'] - \
+        aircraft['crew_number']*100 - wing['fuel_capacity']
+    Payload_3 = 0
+    
+    TOW_0 = aircraft['maximum_takeoff_weight'] - wing['fuel_capacity']
+    TOW_1 = aircraft['maximum_takeoff_weight']
+    TOW_2 = aircraft['maximum_takeoff_weight']
+    TOW_3 = aircraft['operational_empty_weight'] + \
+        aircraft['crew_number']*100 + wing['fuel_capacity']
+
+    Fuel_1 = aircraft['maximum_takeoff_weight'] - aircraft['operational_empty_weight'] - \
+        aircraft['crew_number']*100 - aircraft['payload_weight']
+    Fuel_2 = wing['fuel_capacity']
+    Fuel_3 = wing['fuel_capacity']
+
+    # ---------------- Payload range  ----------------------
+
+
+    # # Point 1
+    # Range_1 = payload_range(TOW_1, Fuel_1, vehicle)
+
+    # # Point 2
+    # Range_2 = payload_range(TOW_2, Fuel_2, vehicle)
+
+    # # Point 3
+    # Range_3 = payload_range(TOW_3, Fuel_3, vehicle)
+
+    # Range_des = performance['range']
+
+    # ranges = [0, Range_1, Range_2, Range_3]
+    # payloads = [Payload_1, Payload_1, Payload_2, Payload_3]
+    # fuels = [0, Fuel_1, Fuel_2, Fuel_3]
+    # TOWs = [TOW_0, TOW_1, TOW_2, TOW_3]
+
+    # payloads_pct = [(x/aircraft['payload_weight'])*100 for x in payloads]
+    # fuels_pct = [(x/wing['fuel_capacity'])*100 for x in fuels]
+    # TOWs_pct = [(x/aircraft['maximum_takeoff_weight'])*100 for x in TOWs]
+
+    # import matplotlib.pyplot as plt
+    # fig, ax = plt.subplots()
+    # ax.plot(ranges ,payloads,'k-')
+    # # ax.plot(ranges ,fuels_pct,'r--', label = 'Fuel load')
+    # # ax.plot(ranges ,TOWs_pct,'b--', label= 'TOW')
+    # ax.set_ylim(bottom=0)
+    # ax.set_xlim(left=0)
+    # ax.grid()
+    # ax.legend()
+    # ax.set_xlabel('Range [nm]')
+    # ax.set_ylabel('Payload [kg]')
+
+    # plt.show()
+
+    # ---------------------------------------------------------
 # try:
     takeoff_noise, sideline_noise, landing_noise = noise_calculation(vehicle, airport_departure)
 # except:

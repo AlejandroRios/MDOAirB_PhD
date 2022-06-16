@@ -62,7 +62,8 @@ arrivals = ['CD0', 'CD1', 'CD2', 'CD3',
 #     for j in arrivals:
 #         freq_2.append(dic[(i,j)])
 
-freq_2 = np.load('Database/Results_FamOpt/acft2.npy')
+# freq_2 = np.load('Database/Results_FamOpt/acft2.npy')
+freq_2 = np.load('Database/Results_FamOpt/acft3_C2DD.npy')
 
 freq_matrix = freq_2
 

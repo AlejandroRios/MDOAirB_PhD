@@ -69,7 +69,8 @@ def payload_range(mass,mass_fuel, vehicle):
 
     delta_ISA = operations['flight_planning_delta_ISA']
 
-    altitude = operations['optimal_altitude_cruise']
+    # altitude = operations['optimal_altitude_cruise']
+    altitude = operations['cruise_altitude'] 
 
     mach = operations['mach_cruise']
 
@@ -138,6 +139,16 @@ def specific_fuel_consumption(vehicle, mach, altitude, delta_ISA, mass):
 
     aircraft = vehicle['aircraft']
     wing = vehicle['wing']
+    engine = vehicle['engine']
+
+    if engine['type'] == 1:
+        scaler_F = load('Performance/Engine/Turboprop/ANN_skl_force/scaler_force_PW120_in.bin') 
+        nn_unit_F = load('Performance/Engine/Turboprop/ANN_skl_force/nn_force_PW120.joblib')
+
+        scaler_FC = load('Performance/Engine/Turboprop/ANN_skl_ff/scaler_ff_PW120_in.bin') 
+        nn_unit_FC = load('Performance/Engine/Turboprop/ANN_skl_ff/nn_ff_PW120.joblib')
+
+
     wing_surface = wing['area']
 
     V_tas = mach_to_V_tas(mach, altitude, delta_ISA)
@@ -196,12 +207,84 @@ def specific_fuel_consumption(vehicle, mach, altitude, delta_ISA, mass):
 
     return TSFC, L_over_D, fuel_flow, throttle_position
 
-# from framework.Database.Aircrafts.baseline_aircraft_parameters import initialize_aircraft_parameters
-# vehicle = initialize_aircraft_parameters()
-# altitude = 40000
-# delta_ISA = 0
-# mass = 50000
 
 
+import pickle
 
-# print(ranges(altitude, delta_ISA, mass, vehicle))
+with open('Database/Family/40_to_100/all_dictionaries/'+str(58)+'.pkl', 'rb') as f:
+    all_info_acft1 = pickle.load(f)
+
+# with open('Database/Family/101_to_160/all_dictionaries/'+str(13)+'.pkl', 'rb') as f:
+#     all_info_acft1 = pickle.load(f)
+
+# with open('Database/Family/161_to_220/all_dictionaries/'+str(0)+'.pkl', 'rb') as f:
+#     all_info_acft1 = pickle.load(f)
+
+# with open('Database/Family_DD/40_to_100/all_dictionaries/'+str(28)+'.pkl', 'rb') as f:
+#     all_info_acft1 = pickle.load(f)
+
+# with open('Database/Family_DD/101_to_160/all_dictionaries/'+str(28)+'.pkl', 'rb') as f:
+#     all_info_acft1 = pickle.load(f)
+
+# with open('Database/Family_DD/161_to_220/all_dictionaries/'+str(0)+'.pkl', 'rb') as f:
+#     all_info_acft1 = pickle.load(f)
+# vehicle = all_info_acft1['vehicle']
+
+# aircraft = vehicle['aircraft']
+# wing = vehicle['wing']
+# engine = vehicle['engine']
+# performance = vehicle['performance']
+# operations = vehicle['operations']
+
+# Payload_1 = aircraft['payload_weight']
+# Payload_2 = aircraft['maximum_takeoff_weight'] - aircraft['operational_empty_weight'] - \
+#     aircraft['crew_number']*100 - wing['fuel_capacity']
+# Payload_3 = 0
+
+# TOW_0 = aircraft['maximum_takeoff_weight'] - wing['fuel_capacity']
+# TOW_1 = aircraft['maximum_takeoff_weight']
+# TOW_2 = aircraft['maximum_takeoff_weight']
+# TOW_3 = aircraft['operational_empty_weight'] + \
+#     aircraft['crew_number']*100 + wing['fuel_capacity']
+
+# Fuel_1 = aircraft['maximum_takeoff_weight'] - aircraft['operational_empty_weight'] - \
+#     aircraft['crew_number']*100 - aircraft['payload_weight']
+# Fuel_2 = wing['fuel_capacity']
+# Fuel_3 = wing['fuel_capacity']
+
+# # ---------------- Payload range  ----------------------
+
+
+# # Point 1
+# Range_1 = payload_range(TOW_1, Fuel_1, vehicle)
+
+# # Point 2
+# Range_2 = payload_range(TOW_2, Fuel_2, vehicle)
+
+# # Point 3
+# Range_3 = payload_range(TOW_3, Fuel_3, vehicle)
+
+# Range_des = performance['range']
+
+# ranges = [0, Range_1, Range_2, Range_3]
+# payloads = [Payload_1, Payload_1, Payload_2, Payload_3]
+# fuels = [0, Fuel_1, Fuel_2, Fuel_3]
+# TOWs = [TOW_0, TOW_1, TOW_2, TOW_3]
+
+# payloads_pct = [(x/aircraft['payload_weight'])*100 for x in payloads]
+# fuels_pct = [(x/wing['fuel_capacity'])*100 for x in fuels]
+# TOWs_pct = [(x/aircraft['maximum_takeoff_weight'])*100 for x in TOWs]
+
+# import matplotlib.pyplot as plt
+# fig, ax = plt.subplots()
+# ax.plot(ranges ,payloads,'k-')
+# # ax.plot(ranges ,fuels_pct,'r--', label = 'Fuel load')
+# # ax.plot(ranges ,TOWs_pct,'b--', label= 'TOW')
+# ax.set_ylim(bottom=0)
+# ax.set_xlim(left=0)
+# ax.grid()
+# ax.legend()
+# ax.set_xlabel('Range [nm]')
+# ax.set_ylabel('Payload [kg]')
+
+# plt.show()
