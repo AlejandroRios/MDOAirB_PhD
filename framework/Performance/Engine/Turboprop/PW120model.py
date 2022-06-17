@@ -264,7 +264,7 @@ def PW120model(altitude, mach, throttle_position):
                                                 F_R, m0_dot_R, S_R, MFP4_R, h0_R, tau_r_R,
                                                 pi_c_max, Tt3_max, Pt3_max, NL_percent, NH_percent)
 
-    # print("--- %s seconds ---" % (time.time() - start_time))
+    print("--- %s seconds ---" % (time.time() - start_time))
 
 
     # print('\n =========================================================================')
@@ -293,5 +293,5 @@ def PW120model(altitude, mach, throttle_position):
 
 
 # Test
-T,FC = PW120model(0, 0.1, 1)
+T,FC = PW120model(0, 0.5, 1)
 print(T,FC)
