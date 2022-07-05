@@ -72,8 +72,8 @@ def turbofan(altitude, mach, throttle_position, vehicle):
 
     # ----- DESIGN POINT ------------------------------------------------------
 
-    design_mach = 0
-    design_altitude = 0
+    design_mach = 0.85
+    design_altitude = 35000
     design_throttle_position = 1.0
 
     # ------ EFICIÊNCIAS ------------------------------------------------------

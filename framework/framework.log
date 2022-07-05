@@ -1,29 +1,10 @@
-2022-07-01 12:38:22,490 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\Geometry\wetted_area     - INFO - ---- Start wetted area module ----
-2022-07-01 12:38:24,927 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\Geometry\wetted_area     - INFO - Individual wetted area [m2]: 1077.831059428067
-2022-07-01 12:38:24,928 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\Geom2022-07-01 12:38:24,962 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - ---- Start sizing loop for tail sizing ----
-2022-07-01 12:38:28,145 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< airplane_sizing
-Traceback (most recent call last):
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo.py", line 578, in objective_function_FPO
-    status, flags, vehicle = airplane_sizing(vehicle, x)
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo.py", line 394, in airplane_sizing
-    vehicle, airport_departure, airport_destination)
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Performance\Mission\mission_sizing.py", line 342, in mission_sizing
-    vehicle
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Performance\Analysis\descent_integration.py", line 129, in descent_integration
-    initial_block_distance, initial_block_altitude, initial_block_mass, initial_block_time, final_block_altitude, 0, mach_descent, delta_ISA, vehicle)
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Performance\Analysis\descent_integration.py", line 355, in climb_integrator
-    y_event_value = sol.y_events[0][0][1]
-IndexError: index 0 is out of bounds for axis 0 with size 0
-2022-07-01 12:38:28,157 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - Aircraft passed sizing and checks status: 0
-2022-07-01 12:38:28,157 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - ---- Start DOC calculation ----
-2022-07-01 12:38:32,864 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< DOC calculation 
-Traceback (most recent call last):
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo.py", line 655, in objective_function_FPO
-    airport_destination, landing_runway, mission_range)
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Performance\Mission\mission.py", line 379, in mission
-    vehicle
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Performance\Analysis\descent_integration.py", line 129, in descent_integration
-    initial_block_distance, initial_block_altitude, initial_block_mass, initial_block_time, final_block_altitude, 0, mach_descent, delta_ISA, vehicle)
-  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Performance\Analysis\descent_integration.py", line 355, in climb_integrator
-    y_event_value = sol.y_events[0][0][1]
-IndexError: index 0 is out of bounds for axis 0 with size 0
+2022-07-04 15:09:03,627 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\Geometry\wetted_area     - INFO - ---- Start wetted area module ----
+2022-07-04 15:09:06,223 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\Geometry\wetted_area     - INFO - Individual wetted area [m2]: 1053.1139038524848
+2022-07-04 15:09:06,223 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\Geom2022-07-04 15:09:06,260 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - ---- Start sizing loop for tail sizing ----
+2022-07-04 15:10:58,901 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - ---- End sizing loop for tail sizing ----
+2022-07-04 15:10:58,934 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - Aircraft flags: [0, 0, 0, 0, 0, 0, 0, 0]
+2022-07-04 15:10:58,934 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - Aircraft status (pass = 0, no pass =1): 0
+2022-07-04 15:10:58,935 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - ---- End aircraft sizing module ----
+2022-07-04 15:10:58,935 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - Aircraft passed sizing and checks status: 0
+2022-07-04 15:10:58,935 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - ---- Start DOC calculation ----
+2022-07-04 15:11:18,432 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check_fpo     - INFO - ---- End DOC calculation ----
