@@ -463,7 +463,7 @@ def compute_flight_data(altitude, mass, climb_V_cas, mach_climb, delta_ISA, vehi
     # if rate_of_climb < 300:
     #     print('rate of climb violated!')
     # time_dot = h_dot
-    sfc = fuel_flow/(thrust_force/10) # sfc in kg/h/daN
+    sfc = fuel_flow/(thrust_force) # sfc in kg/h/daN
     if sfc < 0:
         print('Climb phase')
         print('SFC = {}'.format(sfc))

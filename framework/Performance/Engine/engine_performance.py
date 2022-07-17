@@ -326,6 +326,8 @@ def turbofan(altitude, mach, throttle_position, vehicle):
     npr = max((P0_8/P_0),1)                                    # definição da razão entre a pressão de saída do motor e a pressão ambiente
     fact1 = (gamma_exit-1)/gamma_exit                                      # constante 1
     u0_8 = np.sqrt((2*R/(gamma_exit-1))*(gamma_exit*T0_8*nozzle_efficiency)*(1-(1/npr)**fact1))
+
+    
      
 
     if (npr <= 1.893):
@@ -342,6 +344,8 @@ def turbofan(altitude, mach, throttle_position, vehicle):
 
     uexit = np.sqrt(2*R/(gamma_exit-1)*gamma_exit*T0_8 *
                     nozzle_efficiency*(1-(1/npr)**fact1))  # ????
+
+    
 
     if (snpr <= 1.893):
         pfexit = P_0
@@ -385,6 +389,11 @@ def turbofan(altitude, mach, throttle_position, vehicle):
 
     engine['fan_rotation'] = N1A
     engine['compressor_rotation'] = N2A
+    
+
+    sfc = 3600*fuel_air/fnet
+    engine['sfc'] = sfc
+
 
     return force, fuel_flow, vehicle
 

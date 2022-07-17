@@ -66,13 +66,15 @@ for i in mach:
     for j in throttle:
         engine_thrust, ff , vehicle = turbofan(altitude, i, j, vehicle)
 
-        if engine_thrust > 0 and ff > 0:
+        # if engine_thrust > 0 and ff > 0:
 
-            thrust_vec.append(engine_thrust)
-            ff_vec.append(ff)
-            altitude_vec.append(altitude)
-            mach_vec.append(i)
-            throttle_vec.append(j)
+        print(engine['sfc'])
+
+        thrust_vec.append(engine_thrust)
+        ff_vec.append(ff)
+        altitude_vec.append(altitude)
+        mach_vec.append(i)
+        throttle_vec.append(j)
         
 
 plt.rc('font', family='serif')
