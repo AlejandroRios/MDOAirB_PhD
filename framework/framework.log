@@ -1,3 +1,41 @@
-2022-08-16 11:40:42,764 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\Geometry\wetted_area     - INFO - ---- Start wetted area module ----
----
-2022-08-16 11:40:42,519 - c:\users\aarc8\documents\github\mdoairb_base\framework\Sizing\airplane_sizing_check     - INFO - Current individual vairables: [155, 72, 36, 32, -2.8, 32, 200, 5, 1585, 11]
+2023-01-16 09:45:45,243 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start network optimization module ====
+2023-01-16 09:45:45,269 - c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization     - INFO - ==== Start PuLP optimization ====
+ecks status: 0
+2023-01-16 09:45:45,242 - c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD     - INFO - ---- Start DOC matrix calculation ----
+2023-01-16 09:45:45,242 - c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD     - INFO - ---- Start Network Optimization ----
+2023-01-16 09:45:45,270 - c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< network_optimization
+Traceback (most recent call last):
+  File "c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD.py", line 180, in objective_function0
+    computation_mode, list(airports.keys()), all_info_acft1, all_info_acft2, all_info_acft3)
+  File "c:\users\aarc8\documents\github\mdoairb_base\framework\Network\family_network_optimization.py", line 304, in family_network_optimization
+    prob.solve(COIN_CMD(timeLimit=60*5, msg = 0))
+  File "C:\Users\aarc8\anaconda3\envs\MDOAirB_base\lib\site-packages\pulp\pulp.py", line 1877, in solve
+    status = solver.actualSolve(self, **kwargs)
+  File "C:\Users\aarc8\anaconda3\envs\MDOAirB_base\lib\site-packages\pulp\apis\coin_api.py", line 137, in actualSolve
+    return self.solve_CBC(lp, **kwargs)
+  File "C:\Users\aarc8\anaconda3\envs\MDOAirB_base\lib\site-packages\pulp\apis\coin_api.py", line 147, in solve_CBC
+    "Pulp: cannot execute %s cwd: %s" % (self.path, os.getcwd())
+pulp.apis.core.PulpSolverError: Pulp: cannot execute cbc.exe cwd: C:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework
+2023-01-16 09:45:45,273 - c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD     - INFO - Network profit [$USD]: 0
+2023-01-16 09:45:45,274 - c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< writting dataframes
+Traceback (most recent call last):
+  File "c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD.py", line 274, in objective_function0
+    mach_1, passenger_capacity_1, fuel_mass_1, total_mission_flight_time_1, DOC_nd_1, SAR_1, distances_1,kpi_df2_1)
+UnboundLocalError: local variable 'kpi_df2_1' referenced before assignment
+2023-01-16 09:45:45,275 - c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_optimal_results
+Traceback (most recent call last):
+  File "c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD.py", line 295, in objective_function0
+    )), distances, demands, profit, DOC_ik, vehicle, kpi_df2, airplanes_ik)
+UnboundLocalError: local variable 'kpi_df2' referenced before assignment
+2023-01-16 09:45:45,275 - c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_kml_results
+Traceback (most recent call last):
+  File "c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD.py", line 301, in objective_function0
+    write_kml_results(airports, profit, airplanes_ik)
+UnboundLocalError: local variable 'airplanes_ik' referenced before assignment
+2023-01-16 09:45:45,276 - c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD     - ERROR - >>>>>>>>>> Error at <<<<<<<<<<<< write_newtork_results
+Traceback (most recent call last):
+  File "c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD.py", line 307, in objective_function0
+    write_newtork_results(profit, kpi_df1, kpi_df2)
+UnboundLocalError: local variable 'kpi_df1' referenced before assignment
+2023-01-16 09:45:45,277 - c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD     - INFO - Network profit excecution time: 0:00:00.038849
+2023-01-16 09:45:45,277 - c:\Users\aarc8\Documents\GitHub\MDOAirB_PhD\framework\Optimization\aircraft_family_objective_GCD     - INFO - ==== End network profit module ====
